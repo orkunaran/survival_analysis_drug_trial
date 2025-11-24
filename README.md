@@ -75,7 +75,7 @@ The final Stratified Cox Model identified the following independent predictors o
 * **Recurrence:** HR ~2.5 (Critical Driver)
 * **Surgery:** HR < 1.0 (Protective Factor)
 
-![Hazard Ratios](images/cox_hazard_ratios_final.png)
+![Hazard Ratios](images/cox_hazard_ratios.png)
 
 ---
 
