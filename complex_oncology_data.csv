@@ -1,0 +1,1501 @@
+Patient_ID,Diagnosis_Age,Gender,Cancer_Type,Baseline_Stage,Tumor_Size_cm,Tumor_Grade,Recurrence_Status,Comorbidities,Prior_Treatments,Survival_Months,Event_Status
+PT-000000,30,Male,Colorectal,Stage 2,3.6,G3,No,Diabetes Type 2,Radiotherapy,53.5,1
+PT-000001,87,Female,Breast,II,2.05,G3,No,Hypertension,Surgery,59.5,1
+PT-000002,43,Female,Colorectal,I,"1,63",G2,No,None,Surgery,35.4,1
+PT-000003,40,Female,Lung,II,2.46 cm,Gx,Yes,Diabetes Type 2,Radiotherapy + 2nd Line Chemo,53.7,1
+PT-000004,72,Male,Lung,III,5.14,Gx,Yes,None,Chemotherapy + 2nd Line Chemo,32.6,1
+PT-000005,89,M,Pancreatic,III,4.6,Gx,No,None,Chemotherapy,45.0,1
+PT-000006,76,Male,Pancreatic,IV,7.94,G1,Yes,Hypertension,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000007,66,Female,Pancreatic,3,2.7 cm,Gx,No,None,Chemotherapy,43.7,1
+PT-000008,67,Female,Pancreatic,Metastatic,4.97,G2,Yes,None,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000009,70,Female,Colorectal,3,4.63 cm,G3,Yes,CAD,Surgery + 2nd Line Chemo,25.9,1
+PT-000010,69,Male,Lung,I,1.81,G1,No,None,Surgery,60.0,0
+PT-000011,63,Female,Colorectal,3,6.99,G3,No,CAD,Surgery,36.7,1
+PT-000012,61,Female,Pancreatic,Metastatic,7.29,G2,Yes,COPD,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000013,59,Male,Prostate,Stage 2,3.02,G3,No,None,Radiotherapy,52.9,1
+PT-000014,50,Male,Pancreatic,IV,7.74,Gx,Yes,"Obesity, Hypertension",Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000015,56,Male,Pancreatic,IV,2.8 cm,G3,No,None,Targeted Therapy,1.0,1
+PT-000016,39,Male,Prostate,1,2.48,G2,No,None,Surgery,51.4,1
+PT-000017,58,Female,Pancreatic,III,4.24,G3,No,None,Radiotherapy,14.5,1
+PT-000018,48,Male,Prostate,III,3.89,G3,No,"CAD, Obesity",Radiotherapy,2.0,1
+PT-000019,46,male,Lung,3,4.27,G3,No,None,Radiotherapy,35.1,1
+PT-000020,62,Female,Colorectal,I,2.28,Gx,No,"COPD, CAD",Surgery,58.5,1
+PT-000021,76,Male,Pancreatic,IV,8.71 cm,G2,Yes,None,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000022,71,Male,Lung,3,5.58,G3,No,None,Chemotherapy,32.6,1
+PT-000023,41,Male,Colorectal,1,1.4,G2,Yes,CAD,Surgery + 2nd Line Chemo,32.8,1
+PT-000024,48,Male,Lung,III,3.3,Gx,No,None,Chemotherapy,60.0,0
+PT-000025,71,Female,Lung CA,III,5.93,Gx,Yes,"Diabetes Type 2, COPD",Surgery + 2nd Line Chemo,28.8,1
+PT-000026,48,Male,Pancreatic,1,1.63,G2,No,COPD,Surgery,43.2,1
+PT-000027,57,Female,Colon Cancer,I,1.91,G1,No,Hypertension,Surgery,48.4,1
+PT-000028,66,Female,Pancreatic,IV,6.59,G2,Yes,None,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000029,48,Male,Lung CA,II,2.25,G1,No,"Diabetes Type 2, Hypertension",Surgery,60.0,0
+PT-000030,61,female,Lung CA,1,1.47,G3,No,"COPD, Diabetes Type 2",Surgery,60.0,0
+PT-000031,43,Male,Colorectal,II,3.48 cm,G1,No,"Obesity, CAD",Surgery,60.0,0
+PT-000032,52,Male,Lung,II,2.54,Gx,No,"Diabetes Type 2, Hypertension",Surgery,60.0,0
+PT-000033,63,Female,Lung,II,3.18,G1,No,"Hypertension, CAD",Radiotherapy,55.7,1
+PT-000034,40,Female,Lung,II,3.57,G1,No,"Diabetes Type 2, Hypertension",Radiotherapy,42.6,1
+PT-000035,65,Female,Invasive Ductal,II,1.21 cm,G3,No,COPD,Radiotherapy,47.6,1
+PT-000036,59,Male,Lung,II,2.92,Gx,No,"COPD, CAD",Radiotherapy,57.2,1
+PT-000037,66,Male,Lung CA,II,2.17,G3,No,"COPD, Obesity",Surgery,60.0,0
+PT-000038,62,Female,Breast,II,3.48 cm,G3,No,"Hypertension, COPD",Surgery,53.7,1
+PT-000039,76,Male,Pancreatic,IV,7.74,G2,No,"Hypertension, CAD",Chemotherapy,24.3,1
+PT-000040,61,Male,Lung CA,Stage 2,2.95 cm,Gx,No,COPD,Radiotherapy,60.0,0
+PT-000041,54,Male,Colorectal,IV,10.41,G2,Yes,"CAD, Obesity",Immunotherapy + 2nd Line Chemo,4.5,1
+PT-000042,61,Male,Colorectal,Metastatic,6.51,G1,No,COPD,Targeted Therapy,1.0,1
+PT-000043,66,Female,Breast,II,2.7 cm,G3,No,"Diabetes Type 2, CAD",Radiotherapy,60.0,0
+PT-000044,60,Male,Lung,III,7.22,G3,Yes,None,Chemotherapy + 2nd Line Chemo,36.3,1
+PT-000045,60,Female,Lung,II,1.83,G1,No,"Diabetes Type 2, Hypertension",Radiotherapy,43.6,1
+PT-000046,51,Male,Pancreatic,3,"3,34",G3,Yes,None,Chemotherapy + 2nd Line Chemo,23.1,1
+PT-000047,52,Female,Breast,I,1.61,Gx,No,"Obesity, COPD",Surgery,60.0,0
+PT-000048,43,Female,Colorectal,I,0.95,Gx,No,"Diabetes Type 2, COPD",Surgery,60.0,0
+PT-000049,80,Male,Lung,Stage 2,3.68 cm,Gx,Yes,Obesity,Radiotherapy + 2nd Line Chemo,60.0,0
+PT-000050,45,Female,Colorectal,III,4.04,G2,No,COPD,Radiotherapy,56.1,1
+PT-000051,51,Female,Lung CA,II,3.46,G1,No,CAD,Surgery,60.0,0
+PT-000052,51,Female,Breast,I,1.65,G2,No,Diabetes Type 2,Surgery,60.0,0
+PT-000053,70,Female,Colorectal,I,1.41,G2,No,Diabetes Type 2,Surgery,60.0,0
+PT-000054,56,Female,Breast,IV,5.95,G1,No,None,Chemotherapy,15.2,1
+PT-000055,74,Female,Lung,I,2.19,G3,No,"COPD, Hypertension",Surgery,49.3,1
+PT-000056,51,Male,Prostate,Metastatic,"8,02",G1,Yes,None,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000057,63,Male,Prostate,Stage 2,6.93 cm,G1,No,Obesity,Radiotherapy,56.0,1
+PT-000058,49,M,Lung,II,"2,43",G2,No,Diabetes Type 2,Radiotherapy,55.6,1
+PT-000059,85,Male,Lung,II,3.33,G2,No,None,Surgery,52.4,1
+PT-000060,45,Male,Prostate,1,1.13,G3,No,"Obesity, Hypertension",Surgery,51.6,1
+PT-000061,63,Male,Pancreatic,3,6.14,G1,Yes,Hypertension,Chemotherapy + 2nd Line Chemo,11.1,1
+PT-000062,67,Female,Colorectal,III,3.92,G1,Yes,CAD,Radiotherapy + 2nd Line Chemo,36.0,1
+PT-000063,64,Male,Pancreatic,IV,8.49,G2,No,None,Chemotherapy,1.0,1
+PT-000064,57,Male,Prostate,3,6.3 cm,Gx,No,Obesity,Surgery,38.6,1
+PT-000065,58,Female,Colorectal,II,2.54,Gx,No,None,Surgery,60.0,0
+PT-000066,60,Male,Lung,3,6.31,G2,No,Hypertension,Surgery,36.3,1
+PT-000067,58,Female,Breast,I,2.24 cm,G2,No,"Obesity, COPD",Surgery,57.9,1
+PT-000068,71,Male,Colon Cancer,IV,8.28 cm,G1,Yes,CAD,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000069,86,Female,Lung,III,4.71 cm,Gx,Yes,Obesity,Radiotherapy + 2nd Line Chemo,34.3,1
+PT-000070,53,female,Invasive Ductal,II,2.81,G3,No,Hypertension,Surgery,57.8,1
+PT-000071,43,male,Prostate,III,2.55,Gx,No,COPD,Surgery,45.9,1
+PT-000072,58,Male,Prostate,1,1.03,Gx,No,COPD,Surgery,60.0,0
+PT-000073,90,Female,Pancreatic,Metastatic,10.49,G3,Yes,None,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000074,50,Female,Breast,I,1.24,Gx,No,CAD,Surgery,60.0,0
+PT-000075,79,Female,Lung CA,III,3.42,G2,No,None,Surgery,41.9,1
+PT-000076,80,Female,Invasive Ductal,I,0.82,G1,No,Hypertension,Surgery,60.0,0
+PT-000077,53,Male,Prostate,IV,10.97,G3,Yes,"COPD, Hypertension",Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000078,66,Male,Prostate,IV,7.53,Gx,Yes,Hypertension,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000079,79,male,Colorectal,Stage 2,4.27,Gx,Yes,Hypertension,Surgery + 2nd Line Chemo,60.0,0
+PT-000080,55,Female,Colorectal,I,0.93,Gx,No,Diabetes Type 2,Surgery,30.5,1
+PT-000081,57,Female,Breast,I,2.71 cm,G3,No,"Obesity, Diabetes Type 2",Surgery,48.3,1
+PT-000082,53,Male,Lung,III,3.57,G3,Yes,None,Chemotherapy + 2nd Line Chemo,34.1,1
+PT-000083,47,Male,Lung,IV,7.15,Gx,No,"Hypertension, COPD",Targeted Therapy,18.9,1
+PT-000084,52,Male,Lung,IV,3.18 cm,G1,Yes,"CAD, COPD",Immunotherapy + 2nd Line Chemo,5.1,1
+PT-000085,45,Male,Prostate,II,2.14,G3,No,"CAD, Obesity",Radiotherapy,51.6,1
+PT-000086,60,Female,Breast,II,4.08,G2,No,"Hypertension, Obesity",Surgery,55.8,1
+PT-000087,50,Female,Breast,I,1.26,G2,No,None,Surgery,60.0,0
+PT-000088,62,Female,Breast,I,0.74,G2,No,"COPD, Obesity",Surgery,51.8,1
+PT-000089,41,Male,Colorectal,IV,1.34,G2,No,Hypertension,Chemotherapy,33.3,1
+PT-000090,63,Male,Colorectal,II,"3,19",G1,No,CAD,Surgery,60.0,0
+PT-000091,70,Female,Breast,II,3.45,G3,No,CAD,Radiotherapy,48.4,1
+PT-000092,36,Female,Pancreatic,IV,6.31,G1,Yes,None,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000093,64,Female,Breast,IV,7.34,G1,Yes,CAD,Targeted Therapy + 2nd Line Chemo,3.7,1
+PT-000094,74,female,Breast,II,4.16,G3,No,Obesity,Surgery,47.8,1
+PT-000095,45,Male,Colorectal,Stage 2,2.66,G2,No,COPD,Surgery,60.0,0
+PT-000096,80,F,Breast,II,2.44,G1,No,"Hypertension, Diabetes Type 2",Surgery,47.9,1
+PT-000097,65,M,Lung CA,IV,7.41,G2,Yes,None,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000098,51,Male,Lung CA,Metastatic,3.97,G3,Yes,"COPD, Hypertension",Immunotherapy + 2nd Line Chemo,6.1,1
+PT-000099,59,M,Pancreatic,III,5.48 cm,Gx,No,None,Radiotherapy,36.3,1
+PT-000100,66,Male,Pancreatic,IV,4.46,G3,Yes,CAD,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000101,60,Female,Breast,II,4.7,Gx,No,Hypertension,Radiotherapy,44.0,1
+PT-000102,66,Male,Lung,IV,9.4,G2,Yes,CAD,Chemotherapy + 2nd Line Chemo,49.4,1
+PT-000103,48,F,Pancreatic,III,5.21,G2,No,"Hypertension, Obesity",Surgery,34.4,1
+PT-000104,62,Female,Breast,1,0.59 cm,G2,Yes,"Hypertension, Diabetes Type 2",Surgery + 2nd Line Chemo,46.8,1
+PT-000105,43,Male,Lung,IV,8.52,G2,No,CAD,Targeted Therapy,30.4,1
+PT-000106,58,Male,Prostate,Stage 2,4.04,G2,No,CAD,Radiotherapy,58.5,1
+PT-000107,49,Female,Colorectal,Stage 2,3.58,G1,No,COPD,Radiotherapy,60.0,0
+PT-000108,51,Male,Prostate,III,"3,91",G1,No,"Hypertension, CAD",Chemotherapy,41.9,1
+PT-000109,74,Male,Prostate,I,1.68,G3,No,None,Surgery,51.1,1
+PT-000110,73,Male,Colon Cancer,I,1.35,Gx,No,"CAD, Diabetes Type 2",Surgery,58.6,1
+PT-000111,67,Male,Lung CA,II,"1,79",G1,No,"CAD, Hypertension",Radiotherapy,42.6,1
+PT-000112,46,Female,Breast,II,2.52,Gx,Yes,"Obesity, COPD",Radiotherapy + 2nd Line Chemo,60.0,0
+PT-000113,56,Female,Pancreatic,II,2.39,Gx,No,None,Radiotherapy,33.7,1
+PT-000114,74,Female,Pancreatic,III,2.14 cm,G3,Yes,"CAD, COPD",Surgery + 2nd Line Chemo,1.0,1
+PT-000115,61,Female,Lung,Metastatic,9.64 cm,G1,Yes,CAD,Immunotherapy + 2nd Line Chemo,7.4,1
+PT-000116,87,Female,Breast,1,1.52,G3,No,Obesity,Surgery,38.5,1
+PT-000117,64,Male,Lung CA,IV,7.89,G3,Yes,COPD,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000118,62,Female,Lung,Stage 2,3.43 cm,G2,No,"CAD, Hypertension",Surgery,60.0,0
+PT-000119,56,Female,Colorectal,IV,7.94,G2,Yes,"COPD, Diabetes Type 2",Chemotherapy + 2nd Line Chemo,21.9,1
+PT-000120,61,Female,Breast,III,0.64,G2,Yes,"Obesity, CAD",Radiotherapy + 2nd Line Chemo,39.8,1
+PT-000121,58,Female,Invasive Ductal,1,1.31,Gx,No,Hypertension,Surgery,56.3,1
+PT-000122,68,Male,Prostate,I,1.27 cm,G2,No,"Hypertension, COPD",Surgery,60.0,0
+PT-000123,71,Male,Prostate,1,"1,15",G2,Yes,Diabetes Type 2,Surgery + 2nd Line Chemo,54.9,1
+PT-000124,50,Male,Prostate,I,0.84,Gx,No,None,Surgery,38.9,1
+PT-000125,44,M,Lung,I,1.89,G2,No,Diabetes Type 2,Surgery,60.0,0
+PT-000126,37,Female,Breast,III,6.47,G1,Yes,"Hypertension, COPD",Radiotherapy + 2nd Line Chemo,12.5,1
+PT-000127,66,Female,Colorectal,Stage 2,3.52 cm,G2,No,None,Surgery,60.0,0
+PT-000128,46,Male,Lung CA,IV,8.79,G2,No,CAD,Immunotherapy,15.1,1
+PT-000129,34,Female,Invasive Ductal,Stage 2,4.83,G2,No,None,Radiotherapy,57.8,1
+PT-000130,64,Male,Colorectal,III,4.44,G3,No,None,Surgery,20.8,1
+PT-000131,89,Male,Pancreatic,IV,7.87 cm,G1,Yes,"Obesity, COPD",Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000132,59,Male,Pancreatic,I,1.02 cm,G2,No,COPD,Surgery,60.0,0
+PT-000133,70,Male,Pancreatic,II,2.32 cm,Gx,No,None,Radiotherapy,56.3,1
+PT-000134,60,Female,Breast,III,6.78,G3,No,"Diabetes Type 2, Obesity",Radiotherapy,11.4,1
+PT-000135,58,Male,Prostate,3,3.23,G2,No,None,Radiotherapy,58.1,1
+PT-000136,71,female,Colorectal,1,0.97,G3,No,"Diabetes Type 2, Hypertension",Surgery,60.0,0
+PT-000137,56,Female,Breast,I,"1,88",G3,No,"Obesity, Hypertension",Surgery,46.6,1
+PT-000138,63,Male,Pancreatic,1,1.08,Gx,No,Hypertension,Surgery,48.7,1
+PT-000139,63,Female,Breast,II,4.25,G1,Yes,CAD,Radiotherapy + 2nd Line Chemo,49.8,1
+PT-000140,51,Female,Invasive Ductal,I,0.96,G1,No,Diabetes Type 2,Surgery,60.0,0
+PT-000141,71,Male,Lung,III,7.87,G1,No,CAD,Surgery,30.4,1
+PT-000142,57,Male,Pancreatic,IV,7.02 cm,G1,Yes,COPD,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000143,50,Male,Prostate,II,5.87 cm,G2,No,None,Radiotherapy,54.9,1
+PT-000144,66,Male,Lung,III,5.34 cm,Gx,No,Diabetes Type 2,Radiotherapy,22.8,1
+PT-000145,49,male,Prostate,III,2.21,Gx,No,None,Chemotherapy,60.0,0
+PT-000146,60,Female,Breast,I,1.06 cm,G3,No,None,Surgery,35.8,1
+PT-000147,59,Female,Breast,I,1.14,G2,No,COPD,Surgery,60.0,0
+PT-000148,73,Male,Prostate,III,3.68,Gx,Yes,Obesity,Surgery + 2nd Line Chemo,9.1,1
+PT-000149,65,Male,Pancreatic,IV,6.24,G2,Yes,"CAD, Hypertension",Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000150,59,Female,Colorectal,IV,5.17,G1,Yes,Obesity,Chemotherapy + 2nd Line Chemo,15.1,1
+PT-000151,69,Male,Prostate,Metastatic,9.71 cm,G3,No,None,Targeted Therapy,1.0,1
+PT-000152,76,Male,Prostate,I,0.42,G2,No,None,Surgery,60.0,0
+PT-000153,66,Male,Lung,I,1.94,G1,No,None,Surgery,56.8,1
+PT-000154,60,Female,Lung,IV,9.84,Gx,No,None,Chemotherapy,33.9,1
+PT-000155,44,Male,Prostate,Metastatic,2.02 cm,G2,Yes,Diabetes Type 2,Chemotherapy + 2nd Line Chemo,26.3,1
+PT-000156,47,Female,Invasive Ductal,II,1.85,G3,No,CAD,Radiotherapy,43.0,1
+PT-000157,56,Female,Lung,III,6.71,G3,No,"Obesity, Diabetes Type 2",Radiotherapy,30.9,1
+PT-000158,52,male,Prostate,IV,10.52 cm,G1,Yes,Diabetes Type 2,Targeted Therapy + 2nd Line Chemo,12.2,1
+PT-000159,57,Female,Lung,II,3.0 cm,G3,No,None,Radiotherapy,57.4,1
+PT-000160,60,Male,Pancreatic,3,4.92,G3,No,"Diabetes Type 2, Obesity",Radiotherapy,15.2,1
+PT-000161,66,Female,Lung,I,1.01,G3,No,"Hypertension, Obesity",Surgery,52.3,1
+PT-000162,59,Female,Breast,I,2.05,G2,Yes,"COPD, Diabetes Type 2",Surgery + 2nd Line Chemo,47.1,1
+PT-000163,65,Female,Breast,I,1.74,G3,No,COPD,Surgery,51.4,1
+PT-000164,60,Male,Pancreatic,IV,10.18 cm,G3,Yes,"COPD, Diabetes Type 2",Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000165,36,Female,Breast,1,1.79,G3,No,"Diabetes Type 2, COPD",Surgery,57.8,1
+PT-000166,48,Male,Colorectal,IV,4.95 cm,G2,Yes,None,Immunotherapy + 2nd Line Chemo,18.4,1
+PT-000167,58,Male,Prostate,Stage 2,4.23,Gx,No,"CAD, Diabetes Type 2",Radiotherapy,60.0,0
+PT-000168,45,male,Lung,I,1.71,G1,No,None,Surgery,58.2,1
+PT-000169,67,female,Breast,II,3.08,G3,No,Obesity,Radiotherapy,53.8,1
+PT-000170,78,Female,Pancreatic,III,3.27,Gx,Yes,COPD,Surgery + 2nd Line Chemo,2.0,1
+PT-000171,74,Male,Colorectal,II,1.31,G2,No,"Hypertension, Diabetes Type 2",Radiotherapy,60.0,0
+PT-000172,57,Female,Breast,I,"1,7",G2,No,"Hypertension, Diabetes Type 2",Surgery,26.6,1
+PT-000173,77,male,Prostate,III,5.2 cm,G2,No,None,Surgery,39.0,1
+PT-000174,61,Female,Lung,II,3.51,G1,No,None,Radiotherapy,60.0,0
+PT-000175,55,M,Prostate,III,3.91,G3,No,COPD,Radiotherapy,13.6,1
+PT-000176,52,Female,Breast,III,3.78 cm,Gx,No,None,Surgery,44.8,1
+PT-000177,56,Male,Colorectal,II,3.08 cm,G1,No,None,Radiotherapy,51.8,1
+PT-000178,55,Female,Invasive Ductal,II,3.51,G1,No,None,Radiotherapy,55.6,1
+PT-000179,62,male,Colon Cancer,3,7.23,G3,No,None,Radiotherapy,41.4,1
+PT-000180,61,Male,Lung CA,IV,7.87,Gx,Yes,None,Immunotherapy + 2nd Line Chemo,12.4,1
+PT-000181,60,male,Prostate,II,0.47,Gx,No,"Hypertension, COPD",Surgery,35.6,1
+PT-000182,65,Female,Lung CA,IV,"5,65",G3,Yes,"CAD, COPD",Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000183,74,Female,Breast,I,1.3,Gx,No,None,Surgery,60.0,0
+PT-000184,71,Male,Colorectal,I,1.2,Gx,No,None,Surgery,60.0,0
+PT-000185,42,Female,Breast,I,"1,46",G3,No,Obesity,Surgery,60.0,0
+PT-000186,29,female,Colorectal,III,5.7,Gx,No,Obesity,Radiotherapy,60.0,0
+PT-000187,71,Female,Breast,II,4.35,G3,No,"Hypertension, CAD",Surgery,45.9,1
+PT-000188,43,female,Breast,I,"1,57",G3,No,Hypertension,Surgery,60.0,0
+PT-000189,57,male,Lung,3,4.08 cm,G2,Yes,"COPD, Diabetes Type 2",Chemotherapy + 2nd Line Chemo,30.3,1
+PT-000190,45,male,Lung,I,1.26 cm,G2,Yes,Obesity,Surgery + 2nd Line Chemo,38.4,1
+PT-000191,38,Female,Invasive Ductal,II,1.74,Gx,No,"COPD, CAD",Radiotherapy,52.4,1
+PT-000192,66,Female,Lung,III,7.54,G3,No,"Obesity, Diabetes Type 2",Surgery,2.9,1
+PT-000193,69,Female,Pancreatic,1,2.45,G1,Yes,None,Surgery + 2nd Line Chemo,54.3,1
+PT-000194,53,male,Lung,3,4.38,Gx,No,None,Surgery,59.1,1
+PT-000195,28,Male,Lung,I,1.57,G1,No,COPD,Surgery,47.8,1
+PT-000196,53,Female,Lung CA,3,3.92,G3,No,COPD,Radiotherapy,27.3,1
+PT-000197,64,Female,Pancreatic,II,1.72,G3,No,None,Surgery,36.1,1
+PT-000198,42,Female,Lung CA,I,"2,08",G2,No,None,Surgery,48.5,1
+PT-000199,62,Female,Breast,I,2.19,G1,No,None,Surgery,38.9,1
+PT-000200,59,Female,Lung,Metastatic,10.06 cm,G2,Yes,None,Immunotherapy + 2nd Line Chemo,7.5,1
+PT-000201,66,Male,Lung,I,"1,83",G3,No,Diabetes Type 2,Surgery,46.1,1
+PT-000202,61,Male,Prostate,III,6.22,G2,Yes,None,Radiotherapy + 2nd Line Chemo,25.3,1
+PT-000203,48,Female,Breast,III,4.93 cm,G2,No,"Diabetes Type 2, COPD",Radiotherapy,42.7,1
+PT-000204,74,Female,Pancreatic,IV,6.0,Gx,Yes,Hypertension,Chemotherapy + 2nd Line Chemo,12.2,1
+PT-000205,58,Male,Lung,IV,4.26,G3,Yes,Obesity,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000206,59,Male,Colorectal,3,5.65,G1,No,"Obesity, Hypertension",Chemotherapy,42.0,1
+PT-000207,48,Female,Breast,I,1.74,G3,No,CAD,Surgery,58.7,1
+PT-000208,54,Male,Colorectal,III,3.55,G1,Yes,"CAD, Hypertension",Surgery + 2nd Line Chemo,36.6,1
+PT-000209,49,Male,Pancreatic,IV,10.26 cm,Gx,No,"Hypertension, Obesity",Chemotherapy,1.0,1
+PT-000210,57,Female,Breast,I,1.4,G2,No,CAD,Surgery,60.0,0
+PT-000211,80,female,Breast,II,5.07,G2,No,None,Surgery,60.0,0
+PT-000212,43,Female,Invasive Ductal,Stage 2,3.68,G2,Yes,"Obesity, CAD",Surgery + 2nd Line Chemo,36.5,1
+PT-000213,40,Male,Prostate,III,3.78,G3,Yes,None,Radiotherapy + 2nd Line Chemo,35.2,1
+PT-000214,77,Female,Breast,III,6.03,G1,No,"Hypertension, CAD",Surgery,57.2,1
+PT-000215,57,Male,Lung,II,4.47,G3,No,"CAD, Obesity",Radiotherapy,41.3,1
+PT-000216,51,Male,Lung,I,0.58,G1,No,"Diabetes Type 2, Hypertension",Surgery,60.0,0
+PT-000217,72,Female,Breast,IV,6.94,G2,Yes,None,Immunotherapy + 2nd Line Chemo,17.7,1
+PT-000218,52,Female,Lung,III,1.72,Gx,No,"Diabetes Type 2, Obesity",Chemotherapy,33.5,1
+PT-000219,81,Female,Lung,I,2.1,G3,No,Hypertension,Surgery,55.8,1
+PT-000220,68,F,Pancreatic,Metastatic,6.41,Gx,Yes,None,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000221,54,Female,Breast,I,2.16,G1,No,CAD,Surgery,42.4,1
+PT-000222,85,Male,Lung,II,5.12 cm,G3,No,None,Surgery,55.5,1
+PT-000223,52,Male,Lung,I,2.17,G3,No,Obesity,Surgery,36.8,1
+PT-000224,68,Male,Lung,Stage 2,4.24,G3,Yes,"Obesity, Diabetes Type 2",Surgery + 2nd Line Chemo,51.3,1
+PT-000225,63,Male,Prostate,IV,6.21,G1,No,Diabetes Type 2,Immunotherapy,11.9,1
+PT-000226,75,Female,Lung,IV,11.61,G3,Yes,None,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000227,78,Male,Pancreatic,IV,4.04,G2,Yes,Diabetes Type 2,Chemotherapy + 2nd Line Chemo,11.5,1
+PT-000228,60,Female,Pancreatic,I,1.67,G2,No,"Diabetes Type 2, COPD",Surgery,51.0,1
+PT-000229,50,Female,Lung,IV,6.55,G3,Yes,None,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000230,65,Female,Breast,III,3.83 cm,G2,No,None,Radiotherapy,27.8,1
+PT-000231,51,Female,Pancreatic,IV,9.16,G2,No,CAD,Targeted Therapy,1.0,1
+PT-000232,84,Female,Colorectal,IV,5.03,G3,Yes,None,Targeted Therapy + 2nd Line Chemo,4.7,1
+PT-000233,61,Male,Prostate,1,1.36 cm,G2,No,None,Surgery,60.0,0
+PT-000234,55,Male,Colorectal,III,3.75,G2,No,None,Radiotherapy,29.9,1
+PT-000235,62,Female,Lung,Metastatic,8.53,G2,No,None,Immunotherapy,6.0,1
+PT-000236,43,Male,Prostate,IV,6.32,G2,No,None,Targeted Therapy,23.4,1
+PT-000237,48,Male,Colorectal,I,"1,69",G1,No,None,Surgery,57.8,1
+PT-000238,74,Female,Breast,1,1.63,Gx,No,"COPD, Hypertension",Surgery,60.0,0
+PT-000239,52,Male,Pancreatic,IV,7.43 cm,G3,Yes,Diabetes Type 2,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000240,47,Female,Pancreatic,IV,7.01,G3,Yes,"Diabetes Type 2, Obesity",Targeted Therapy + 2nd Line Chemo,6.8,1
+PT-000241,66,Female,Lung,II,"0,91",Gx,No,"Diabetes Type 2, Obesity",Surgery,46.0,1
+PT-000242,74,Female,Lung,Metastatic,9.39,Gx,Yes,"CAD, COPD",Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000243,68,Male,Pancreatic,III,3.11 cm,G1,No,None,Radiotherapy,11.6,1
+PT-000244,71,Male,Prostate,3,3.29,G1,No,"Hypertension, COPD",Radiotherapy,54.3,1
+PT-000245,50,Female,Lung,3,6.23 cm,Gx,No,CAD,Radiotherapy,60.0,0
+PT-000246,42,Male,Colorectal,1,1.59,G3,No,Obesity,Surgery,40.6,1
+PT-000247,78,Female,Breast,II,4.23,Gx,No,CAD,Radiotherapy,54.5,1
+PT-000248,56,F,Colorectal,3,6.83,Gx,Yes,"Hypertension, CAD",Radiotherapy + 2nd Line Chemo,16.0,1
+PT-000249,56,Female,Colorectal,1,"2,03",Gx,No,None,Surgery,38.3,1
+PT-000250,75,Male,Lung,IV,9.13,G2,Yes,"Hypertension, CAD",Chemotherapy + 2nd Line Chemo,18.6,1
+PT-000251,66,Male,Pancreatic,III,7.18,G2,No,CAD,Chemotherapy,27.7,1
+PT-000252,65,Female,Lung,1,"1,71",G2,No,None,Surgery,60.0,0
+PT-000253,85,Male,Colorectal,III,5.06,Gx,No,Obesity,Radiotherapy,23.2,1
+PT-000254,52,Male,Prostate,III,4.73 cm,G3,No,None,Chemotherapy,49.7,1
+PT-000255,71,Female,Invasive Ductal,Stage 2,2.89,G1,No,COPD,Surgery,54.0,1
+PT-000256,60,Female,Colorectal,III,3.2,G3,Yes,COPD,Chemotherapy + 2nd Line Chemo,26.4,1
+PT-000257,63,female,Breast,1,0.34,Gx,No,CAD,Surgery,42.5,1
+PT-000258,78,Female,Invasive Ductal,Metastatic,6.08,G2,Yes,Obesity,Targeted Therapy + 2nd Line Chemo,7.7,1
+PT-000259,66,Male,Lung,I,1.42,Gx,No,"COPD, Obesity",Surgery,60.0,0
+PT-000260,66,Female,Colorectal,1,1.66,G1,No,Diabetes Type 2,Surgery,60.0,0
+PT-000261,72,Female,Invasive Ductal,1,1.58,G3,No,Hypertension,Surgery,51.9,1
+PT-000262,55,M,Prostate,I,2.13,G2,No,Hypertension,Surgery,60.0,0
+PT-000263,49,female,Breast,II,2.55,Gx,No,Obesity,Radiotherapy,46.4,1
+PT-000264,47,female,Lung,IV,7.55,Gx,Yes,None,Chemotherapy + 2nd Line Chemo,12.4,1
+PT-000265,36,Female,Colon Cancer,I,1.49,Gx,No,None,Surgery,60.0,0
+PT-000266,84,Female,Pancreatic,II,2.02,G2,Yes,None,Surgery + 2nd Line Chemo,37.8,1
+PT-000267,46,Female,Breast,III,6.96 cm,Gx,Yes,CAD,Radiotherapy + 2nd Line Chemo,30.9,1
+PT-000268,57,Male,Lung,II,2.22,G1,Yes,None,Surgery + 2nd Line Chemo,34.7,1
+PT-000269,56,Male,Prostate,II,2.24 cm,G2,No,"Diabetes Type 2, CAD",Surgery,44.2,1
+PT-000270,63,Female,Pancreatic,IV,2.85,Gx,Yes,"Hypertension, Obesity",Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000271,69,Female,Lung,Stage 2,2.91,G2,No,None,Radiotherapy,60.0,0
+PT-000272,70,Female,Lung,IV,7.63,G1,Yes,"Hypertension, Obesity",Immunotherapy + 2nd Line Chemo,19.9,1
+PT-000273,53,Female,Pancreatic,III,3.67 cm,G3,No,"CAD, Diabetes Type 2",Surgery,25.1,1
+PT-000274,57,Female,Lung CA,IV,8.17 cm,Gx,Yes,"Obesity, Hypertension",Immunotherapy + 2nd Line Chemo,13.7,1
+PT-000275,63,Female,Lung,III,4.38 cm,Gx,No,"Hypertension, CAD",Chemotherapy,14.4,1
+PT-000276,57,Female,Pancreatic,IV,6.67 cm,G2,Yes,"Hypertension, Obesity",Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000277,79,Female,Invasive Ductal,I,1.61,G1,No,CAD,Surgery,60.0,0
+PT-000278,65,female,Breast,I,"1,52",G3,No,None,Surgery,51.6,1
+PT-000279,68,Female,Breast,I,0.52,G1,No,CAD,Surgery,57.3,1
+PT-000280,67,Female,Breast,II,"2,62",G2,No,Obesity,Surgery,60.0,0
+PT-000281,74,Male,Pancreatic,II,2.88,G1,No,None,Surgery,45.1,1
+PT-000282,62,Male,Pancreatic,III,3.99,G1,No,None,Chemotherapy,26.4,1
+PT-000283,44,Male,Lung,IV,9.34,Gx,No,"Obesity, CAD",Immunotherapy,12.3,1
+PT-000284,64,Female,Breast,3,4.7,G3,Yes,"CAD, COPD",Surgery + 2nd Line Chemo,31.8,1
+PT-000285,52,Male,Colorectal,I,1.24,Gx,No,COPD,Surgery,54.8,1
+PT-000286,53,Male,Colorectal,I,1.19,G3,No,None,Surgery,34.0,1
+PT-000287,67,F,Breast,II,2.29,Gx,No,None,Surgery,50.7,1
+PT-000288,74,Male,Lung,II,2.48 cm,Gx,No,Obesity,Surgery,55.8,1
+PT-000289,60,Female,Breast,II,3.49,G3,Yes,Hypertension,Radiotherapy + 2nd Line Chemo,51.9,1
+PT-000290,63,Male,Colorectal,1,0.8,G1,No,Obesity,Surgery,59.5,1
+PT-000291,80,Male,Lung,II,3.59 cm,Gx,Yes,COPD,Radiotherapy + 2nd Line Chemo,47.8,1
+PT-000292,62,Female,Lung CA,II,2.63,G1,No,None,Surgery,45.0,1
+PT-000293,91,male,Pancreatic,III,3.91 cm,G3,No,"CAD, Obesity",Radiotherapy,24.4,1
+PT-000294,66,Male,Pancreatic,IV,4.22,Gx,Yes,Obesity,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000295,38,Female,Breast,I,1.58,G2,No,"Obesity, CAD",Surgery,58.8,1
+PT-000296,69,female,Pancreatic,IV,8.9,G2,Yes,None,Targeted Therapy + 2nd Line Chemo,12.8,1
+PT-000297,64,Male,Colorectal,I,1.62,Gx,No,"Diabetes Type 2, CAD",Surgery,60.0,0
+PT-000298,75,Female,Breast,I,1.47,G2,No,"COPD, Obesity",Surgery,40.5,1
+PT-000299,68,Male,Pancreatic,Metastatic,8.07 cm,Gx,Yes,None,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000300,58,Male,Colorectal,II,2.61 cm,Gx,No,CAD,Surgery,59.2,1
+PT-000301,45,Female,Invasive Ductal,III,"6,5",Gx,No,Diabetes Type 2,Surgery,25.4,1
+PT-000302,57,Female,Invasive Ductal,I,2.33 cm,G3,No,None,Surgery,57.8,1
+PT-000303,49,F,Breast,Stage 2,2.06,G3,No,None,Surgery,50.5,1
+PT-000304,53,F,Breast,I,2.0,G2,No,"Diabetes Type 2, Obesity",Surgery,60.0,0
+PT-000305,67,Female,Pancreatic,IV,5.31,G2,No,None,Immunotherapy,1.0,1
+PT-000306,80,Female,Breast,III,7.78 cm,G2,Yes,"Obesity, Diabetes Type 2",Surgery + 2nd Line Chemo,50.9,1
+PT-000307,64,male,Lung,I,1.61 cm,G1,Yes,None,Surgery + 2nd Line Chemo,60.0,0
+PT-000308,45,Female,Pancreatic,III,6.44 cm,G1,No,None,Chemotherapy,21.7,1
+PT-000309,65,Male,Prostate,III,5.69 cm,G3,No,None,Surgery,34.2,1
+PT-000310,74,male,Pancreatic,IV,9.5,Gx,Yes,COPD,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000311,52,Male,Lung CA,II,1.67,G3,No,CAD,Surgery,46.9,1
+PT-000312,58,Male,Colorectal,II,2.59,G1,No,"Diabetes Type 2, COPD",Surgery,50.0,1
+PT-000313,60,Female,Colorectal,IV,8.83 cm,G2,Yes,None,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000314,50,Female,Lung,3,8.28,G2,Yes,None,Radiotherapy + 2nd Line Chemo,16.4,1
+PT-000315,67,Female,Lung CA,Stage 2,3.57 cm,Gx,No,"CAD, COPD",Radiotherapy,60.0,0
+PT-000316,58,Male,Prostate,II,3.05,G1,No,None,Radiotherapy,53.8,1
+PT-000317,65,Male,Prostate,I,1.88,G3,No,None,Surgery,19.1,1
+PT-000318,49,Male,Prostate,3,4.4,Gx,No,Diabetes Type 2,Chemotherapy,45.3,1
+PT-000319,54,Male,Prostate,Metastatic,4.8,G3,Yes,None,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000320,68,Female,Lung CA,III,"7,04",G3,No,None,Radiotherapy,46.2,1
+PT-000321,55,Female,Breast,II,4.64,Gx,No,Diabetes Type 2,Surgery,60.0,0
+PT-000322,80,Female,Lung,1,2.46,G2,No,None,Surgery,42.3,1
+PT-000323,55,Male,Prostate,II,2.23,Gx,No,Hypertension,Surgery,33.2,1
+PT-000324,62,Female,Invasive Ductal,I,0.46,G1,No,"CAD, Hypertension",Surgery,51.4,1
+PT-000325,71,Female,Invasive Ductal,III,4.52,G1,No,None,Surgery,32.5,1
+PT-000326,42,Female,Pancreatic,IV,4.27,G2,Yes,COPD,Immunotherapy + 2nd Line Chemo,6.3,1
+PT-000327,38,Female,Lung,1,1.8,G2,No,CAD,Surgery,59.9,1
+PT-000328,41,Male,Lung,3,3.52 cm,G1,Yes,"Obesity, Hypertension",Radiotherapy + 2nd Line Chemo,43.6,1
+PT-000329,75,Male,Pancreatic,Stage 2,3.2 cm,G2,Yes,Hypertension,Surgery + 2nd Line Chemo,19.1,1
+PT-000330,53,Male,Pancreatic,3,4.22,G3,No,None,Radiotherapy,26.6,1
+PT-000331,90,female,Breast,1,1.46,G1,No,None,Surgery,60.0,0
+PT-000332,53,Male,Colorectal,1,2.3,G3,No,Hypertension,Surgery,25.8,1
+PT-000333,62,Male,Colorectal,II,3.8 cm,G2,No,None,Radiotherapy,60.0,0
+PT-000334,78,Male,Colorectal,Metastatic,6.96,G3,No,Obesity,Chemotherapy,11.1,1
+PT-000335,84,Male,Prostate,I,1.16,Gx,No,"Hypertension, CAD",Surgery,60.0,0
+PT-000336,84,Female,Breast,II,2.9,G1,No,"CAD, Obesity",Surgery,49.6,1
+PT-000337,74,Female,Breast,IV,7.79 cm,G1,Yes,"Hypertension, Diabetes Type 2",Immunotherapy + 2nd Line Chemo,25.3,1
+PT-000338,72,Male,Prostate,Metastatic,8.92,Gx,Yes,Hypertension,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000339,67,Male,Prostate,1,1.38,G2,No,"Diabetes Type 2, COPD",Surgery,60.0,0
+PT-000340,69,Male,Pancreatic,IV,4.62,G3,Yes,None,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000341,53,male,Colorectal,I,2.03 cm,G1,No,Diabetes Type 2,Surgery,48.3,1
+PT-000342,50,Male,Colorectal,II,2.61,G3,No,CAD,Surgery,60.0,0
+PT-000343,59,male,Colorectal,III,4.54 cm,G1,Yes,"Hypertension, COPD",Radiotherapy + 2nd Line Chemo,32.8,1
+PT-000344,57,Male,Colorectal,IV,8.72 cm,Gx,Yes,None,Immunotherapy + 2nd Line Chemo,17.8,1
+PT-000345,54,Female,Lung,IV,7.16,Gx,Yes,CAD,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000346,68,Female,Invasive Ductal,I,1.44,G3,No,None,Surgery,60.0,0
+PT-000347,71,Male,Prostate,IV,7.44,G3,Yes,None,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000348,61,male,Prostate,I,0.75,Gx,No,"Diabetes Type 2, Obesity",Surgery,60.0,0
+PT-000349,77,Female,Breast,III,3.83,G2,No,Obesity,Surgery,28.1,1
+PT-000350,46,Female,Colorectal,Stage 2,2.8 cm,G2,No,Diabetes Type 2,Surgery,52.6,1
+PT-000351,57,Female,Breast,III,"5,35",G3,Yes,"COPD, Obesity",Radiotherapy + 2nd Line Chemo,29.5,1
+PT-000352,51,F,Breast,III,4.64,G2,Yes,"COPD, Diabetes Type 2",Radiotherapy + 2nd Line Chemo,42.3,1
+PT-000353,37,Male,Colorectal,I,0.55,Gx,No,"Obesity, CAD",Surgery,44.7,1
+PT-000354,59,male,Lung CA,III,3.68,G2,No,"Hypertension, Obesity",Chemotherapy,53.1,1
+PT-000355,58,Female,Breast,I,2.4,G3,No,None,Surgery,60.0,0
+PT-000356,78,male,Lung,Stage 2,2.94,Gx,No,Diabetes Type 2,Radiotherapy,48.7,1
+PT-000357,67,Female,Colon Cancer,3,5.51,Gx,No,Obesity,Surgery,59.2,1
+PT-000358,47,Female,Breast,Stage 2,"3,39",G1,No,None,Radiotherapy,42.5,1
+PT-000359,82,Female,Pancreatic,III,4.86,G3,Yes,"Diabetes Type 2, CAD",Surgery + 2nd Line Chemo,1.0,1
+PT-000360,74,Male,Colorectal,IV,"8,05",G1,Yes,None,Chemotherapy + 2nd Line Chemo,15.7,1
+PT-000361,66,Female,Pancreatic,IV,6.05,G2,Yes,"Obesity, Hypertension",Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000362,57,Male,Pancreatic,III,4.55 cm,G3,Yes,"COPD, CAD",Radiotherapy + 2nd Line Chemo,8.2,1
+PT-000363,48,Female,Breast,1,1.38,G2,No,Diabetes Type 2,Surgery,60.0,0
+PT-000364,55,Female,Pancreatic,3,4.99,Gx,Yes,COPD,Radiotherapy + 2nd Line Chemo,12.8,1
+PT-000365,73,male,Colorectal,III,5.46,G1,No,"CAD, COPD",Surgery,50.0,1
+PT-000366,82,Female,Lung,III,3.73,G1,Yes,CAD,Chemotherapy + 2nd Line Chemo,27.3,1
+PT-000367,78,Female,Colorectal,I,1.21,G3,No,Diabetes Type 2,Surgery,52.8,1
+PT-000368,54,Male,Colorectal,I,"1,7",G3,No,Hypertension,Surgery,60.0,0
+PT-000369,46,M,Colorectal,II,3.26 cm,Gx,No,None,Radiotherapy,60.0,0
+PT-000370,61,male,Colorectal,3,0.49,Gx,Yes,None,Radiotherapy + 2nd Line Chemo,39.4,1
+PT-000371,38,Male,Lung,III,5.86,G2,Yes,None,Radiotherapy + 2nd Line Chemo,16.2,1
+PT-000372,63,Male,Colorectal,IV,7.22,G1,Yes,"Hypertension, Obesity",Immunotherapy + 2nd Line Chemo,16.3,1
+PT-000373,58,Female,Breast,II,2.37,G2,No,None,Radiotherapy,49.5,1
+PT-000374,54,Male,Lung,II,3.8,G1,No,None,Radiotherapy,44.6,1
+PT-000375,40,Male,Pancreatic,Metastatic,3.28,G1,Yes,"Obesity, COPD",Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000376,66,Female,Pancreatic,Metastatic,10.71,Gx,Yes,COPD,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000377,53,Male,Lung,III,4.28 cm,G2,No,Obesity,Chemotherapy,49.5,1
+PT-000378,45,Female,Lung,IV,6.99,G2,Yes,"COPD, Obesity",Chemotherapy + 2nd Line Chemo,19.8,1
+PT-000379,25,Male,Prostate,III,6.77,Gx,No,None,Radiotherapy,17.2,1
+PT-000380,59,Male,Prostate,Stage 2,2.39,G2,No,COPD,Radiotherapy,50.1,1
+PT-000381,81,Female,Breast,III,5.76 cm,G3,No,None,Radiotherapy,12.5,1
+PT-000382,79,Female,Breast,1,1.21,G3,No,None,Surgery,44.4,1
+PT-000383,54,Female,Breast,1,1.85,G3,No,CAD,Surgery,55.5,1
+PT-000384,52,Female,Breast,Metastatic,9.15 cm,G3,Yes,"Hypertension, COPD",Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000385,65,F,Pancreatic,IV,7.42,G2,Yes,Obesity,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000386,48,Male,Lung,II,4.0,Gx,No,None,Radiotherapy,60.0,0
+PT-000387,63,male,Pancreatic,III,4.57 cm,Gx,Yes,None,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000388,69,Female,Pancreatic,3,5.44,G2,No,Diabetes Type 2,Surgery,39.8,1
+PT-000389,74,Female,Colon Cancer,1,0.5 cm,G2,Yes,"Hypertension, CAD",Surgery + 2nd Line Chemo,43.5,1
+PT-000390,58,Female,Breast,1,0.49,G2,No,Obesity,Surgery,59.1,1
+PT-000391,57,Male,Pancreatic,III,4.85 cm,G3,No,"CAD, Obesity",Surgery,8.7,1
+PT-000392,49,Male,Pancreatic,3,6.74,G1,No,"Obesity, CAD",Surgery,43.5,1
+PT-000393,50,Female,Breast,I,1.99,G3,No,None,Surgery,35.2,1
+PT-000394,57,Male,Lung CA,Metastatic,4.03,Gx,Yes,Hypertension,Immunotherapy + 2nd Line Chemo,10.1,1
+PT-000395,64,Female,Lung,1,1.4 cm,G3,No,None,Surgery,56.3,1
+PT-000396,70,Female,Breast,1,1.01,G2,No,"CAD, Hypertension",Surgery,40.7,1
+PT-000397,50,Male,Prostate,1,1.1,G2,No,Hypertension,Surgery,49.0,1
+PT-000398,77,Female,Pancreatic,IV,5.74,G2,Yes,None,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000399,56,Female,Breast,II,3.73,Gx,No,"Diabetes Type 2, COPD",Radiotherapy,49.4,1
+PT-000400,59,Male,Pancreatic,III,3.31,G3,Yes,"Hypertension, Diabetes Type 2",Radiotherapy + 2nd Line Chemo,1.0,1
+PT-000401,51,Female,Lung,Stage 2,4.13,G3,No,Hypertension,Radiotherapy,45.8,1
+PT-000402,30,Female,Colorectal,Stage 2,2.4,G3,No,"Obesity, CAD",Radiotherapy,57.8,1
+PT-000403,70,Female,Breast,IV,8.8,G3,Yes,"CAD, Obesity",Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000404,68,Male,Prostate,IV,7.95,G2,Yes,CAD,Immunotherapy + 2nd Line Chemo,22.9,1
+PT-000405,56,F,Breast,I,1.18 cm,Gx,No,"COPD, Obesity",Surgery,48.0,1
+PT-000406,60,Male,Prostate,III,4.02,G2,Yes,"CAD, Diabetes Type 2",Radiotherapy + 2nd Line Chemo,15.0,1
+PT-000407,66,male,Colorectal,I,1.51,G2,No,"Hypertension, Diabetes Type 2",Surgery,60.0,0
+PT-000408,41,Female,Invasive Ductal,Stage 2,3.4,G3,No,Diabetes Type 2,Surgery,42.1,1
+PT-000409,53,Male,Pancreatic,IV,"8,43",G3,Yes,None,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000410,69,Male,Pancreatic,IV,5.81,G1,Yes,None,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000411,44,Female,Breast,I,2.55 cm,G2,No,None,Surgery,60.0,0
+PT-000412,63,Female,Breast,I,2.0,G1,No,Diabetes Type 2,Surgery,55.9,1
+PT-000413,43,F,Lung,IV,8.29,G2,Yes,Hypertension,Immunotherapy + 2nd Line Chemo,7.0,1
+PT-000414,65,Female,Lung,3,5.24,G1,No,None,Surgery,38.1,1
+PT-000415,59,Male,Lung,I,1.59,G1,No,Hypertension,Surgery,60.0,0
+PT-000416,40,Male,Lung CA,Stage 2,3.15,G3,No,"Diabetes Type 2, COPD",Surgery,47.8,1
+PT-000417,73,Male,Lung,III,5.88,G3,Yes,COPD,Surgery + 2nd Line Chemo,48.1,1
+PT-000418,51,Female,Breast,IV,"5,2",G1,No,CAD,Immunotherapy,21.6,1
+PT-000419,50,Female,Invasive Ductal,III,3.55,Gx,No,Diabetes Type 2,Chemotherapy,52.7,1
+PT-000420,62,Female,Pancreatic,II,3.49,G1,No,"CAD, COPD",Surgery,54.7,1
+PT-000421,73,Female,Invasive Ductal,IV,9.14,G2,No,None,Immunotherapy,19.6,1
+PT-000422,47,Male,Lung,Stage 2,3.54,G1,No,"Obesity, Diabetes Type 2",Surgery,53.0,1
+PT-000423,60,Male,Colorectal,II,3.88,G3,No,None,Surgery,54.0,1
+PT-000424,65,Male,Colorectal,3,4.47,G3,Yes,None,Radiotherapy + 2nd Line Chemo,26.1,1
+PT-000425,68,Female,Breast,III,1.67,G2,Yes,Obesity,Surgery + 2nd Line Chemo,23.1,1
+PT-000426,62,male,Lung,III,5.15,Gx,No,Obesity,Surgery,42.0,1
+PT-000427,55,Female,Breast,Stage 2,2.52 cm,G3,Yes,None,Radiotherapy + 2nd Line Chemo,54.8,1
+PT-000428,50,Male,Pancreatic,3,6.76,G2,No,CAD,Radiotherapy,49.8,1
+PT-000429,61,Male,Prostate,I,1.36,Gx,No,Hypertension,Surgery,60.0,0
+PT-000430,47,Male,Pancreatic,IV,3.13,G1,Yes,None,Chemotherapy + 2nd Line Chemo,17.4,1
+PT-000431,24,Female,Colorectal,III,3.86 cm,G1,Yes,None,Chemotherapy + 2nd Line Chemo,22.4,1
+PT-000432,65,female,Lung,1,"2,07",G1,Yes,Obesity,Surgery + 2nd Line Chemo,58.4,1
+PT-000433,70,Male,Prostate,IV,7.59,G2,Yes,COPD,Targeted Therapy + 2nd Line Chemo,26.1,1
+PT-000434,31,Male,Prostate,II,"4,19",G3,No,Obesity,Radiotherapy,39.2,1
+PT-000435,47,Female,Breast,1,2.42,G1,No,None,Surgery,54.2,1
+PT-000436,67,Male,Prostate,IV,7.21 cm,G1,Yes,None,Immunotherapy + 2nd Line Chemo,30.9,1
+PT-000437,84,Female,Colorectal,III,5.58 cm,G3,No,None,Surgery,18.3,1
+PT-000438,60,female,Colorectal,IV,6.08,G2,Yes,"COPD, CAD",Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000439,51,Male,Pancreatic,I,1.88,G1,No,None,Surgery,60.0,0
+PT-000440,57,Male,Prostate,I,1.48,G2,No,COPD,Surgery,60.0,0
+PT-000441,76,Female,Lung,IV,3.81,Gx,Yes,"Hypertension, Obesity",Immunotherapy + 2nd Line Chemo,15.2,1
+PT-000442,52,Male,Lung,3,4.12,G3,No,None,Chemotherapy,29.5,1
+PT-000443,50,Male,Prostate,II,2.54,G2,No,"COPD, CAD",Radiotherapy,54.7,1
+PT-000444,54,female,Pancreatic,3,3.56,G2,No,Hypertension,Surgery,28.4,1
+PT-000445,48,Female,Pancreatic,III,2.97 cm,G1,No,None,Radiotherapy,44.0,1
+PT-000446,61,Female,Breast,IV,8.32 cm,G2,Yes,"COPD, Diabetes Type 2",Immunotherapy + 2nd Line Chemo,12.9,1
+PT-000447,79,Female,Lung,Stage 2,2.93,G1,Yes,CAD,Surgery + 2nd Line Chemo,60.0,0
+PT-000448,63,Male,Lung,Stage 2,2.58,G3,No,COPD,Radiotherapy,39.2,1
+PT-000449,56,Male,Lung CA,I,1.67,Gx,No,"Obesity, Diabetes Type 2",Surgery,59.8,1
+PT-000450,56,Female,Colorectal,II,3.5,G3,No,None,Radiotherapy,45.5,1
+PT-000451,41,female,Breast,I,2.54,G2,Yes,None,Surgery + 2nd Line Chemo,37.0,1
+PT-000452,70,Male,Pancreatic,IV,8.0,Gx,Yes,None,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000453,59,Female,Pancreatic,IV,5.24,G3,Yes,"CAD, Hypertension",Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000454,57,Male,Lung,IV,6.56,G2,Yes,Diabetes Type 2,Immunotherapy + 2nd Line Chemo,16.3,1
+PT-000455,98,Male,Colorectal,Stage 2,3.77,Gx,No,Diabetes Type 2,Radiotherapy,60.0,0
+PT-000456,63,male,Pancreatic,III,"5,56",G1,Yes,Hypertension,Surgery + 2nd Line Chemo,20.6,1
+PT-000457,50,Male,Lung,IV,8.17 cm,G3,Yes,None,Immunotherapy + 2nd Line Chemo,13.8,1
+PT-000458,54,Male,Lung CA,III,4.88 cm,G1,No,Hypertension,Surgery,40.8,1
+PT-000459,73,Male,Pancreatic,3,4.55,G2,No,None,Chemotherapy,45.1,1
+PT-000460,61,Male,Prostate,I,"1,9",G2,No,"CAD, Hypertension",Surgery,60.0,0
+PT-000461,42,Female,Breast,II,2.43,Gx,No,"Hypertension, CAD",Surgery,60.0,0
+PT-000462,71,Female,Breast,3,4.11,Gx,Yes,Hypertension,Surgery + 2nd Line Chemo,18.1,1
+PT-000463,51,Female,Breast,I,1.35,Gx,No,Obesity,Surgery,53.4,1
+PT-000464,82,Female,Invasive Ductal,II,2.43,G1,Yes,None,Radiotherapy + 2nd Line Chemo,53.4,1
+PT-000465,72,Male,Lung,3,6.25 cm,G2,No,"CAD, Diabetes Type 2",Radiotherapy,45.5,1
+PT-000466,54,Male,Pancreatic,3,6.53,G2,Yes,"Obesity, COPD",Radiotherapy + 2nd Line Chemo,23.4,1
+PT-000467,75,Female,Invasive Ductal,I,1.96 cm,G3,No,"Obesity, Hypertension",Surgery,55.5,1
+PT-000468,60,Male,Pancreatic,III,4.58 cm,G3,No,Obesity,Chemotherapy,15.1,1
+PT-000469,70,Female,Pancreatic,3,6.94,G3,No,"Diabetes Type 2, CAD",Radiotherapy,7.4,1
+PT-000470,65,male,Colorectal,1,1.33,G3,No,None,Surgery,54.8,1
+PT-000471,49,Female,Breast,II,3.49,Gx,No,"COPD, Diabetes Type 2",Radiotherapy,60.0,0
+PT-000472,52,Male,Pancreatic,IV,9.88 cm,G1,Yes,"Diabetes Type 2, Obesity",Targeted Therapy + 2nd Line Chemo,7.2,1
+PT-000473,72,F,Lung,3,4.23,G3,No,None,Surgery,36.4,1
+PT-000474,55,Female,Lung,Stage 2,2.55 cm,G2,No,Hypertension,Surgery,60.0,0
+PT-000475,55,Female,Colorectal,III,7.59,G2,Yes,CAD,Radiotherapy + 2nd Line Chemo,25.5,1
+PT-000476,48,Male,Prostate,IV,3.91 cm,G3,No,None,Chemotherapy,3.9,1
+PT-000477,65,Female,Breast,II,2.46,G3,No,"Hypertension, Diabetes Type 2",Radiotherapy,41.0,1
+PT-000478,84,Female,Breast,IV,2.97,Gx,Yes,COPD,Immunotherapy + 2nd Line Chemo,8.5,1
+PT-000479,47,Female,Colorectal,II,0.17,G3,No,Diabetes Type 2,Surgery,44.9,1
+PT-000480,60,Female,Breast,I,"0,69",G2,No,None,Surgery,60.0,0
+PT-000481,76,Female,Pancreatic,IV,6.54,G3,Yes,None,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000482,59,Male,Lung,II,3.25,G3,No,"COPD, Diabetes Type 2",Radiotherapy,40.4,1
+PT-000483,65,female,Breast,1,1.1,Gx,No,"Obesity, COPD",Surgery,60.0,0
+PT-000484,47,Female,Colorectal,II,2.14,G3,No,"Diabetes Type 2, COPD",Radiotherapy,44.6,1
+PT-000485,65,Female,Breast,II,3.04,Gx,No,"Diabetes Type 2, Obesity",Surgery,60.0,0
+PT-000486,57,Male,Lung CA,III,6.23,G3,No,None,Radiotherapy,35.4,1
+PT-000487,71,Male,Prostate,IV,5.07,G2,Yes,"CAD, Diabetes Type 2",Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000488,74,female,Breast,IV,"9,94",G2,Yes,Hypertension,Immunotherapy + 2nd Line Chemo,24.8,1
+PT-000489,91,Female,Breast,I,1.15,G2,No,"Hypertension, COPD",Surgery,60.0,0
+PT-000490,66,male,Lung,IV,6.83,G1,Yes,"Diabetes Type 2, Obesity",Chemotherapy + 2nd Line Chemo,28.7,1
+PT-000491,63,Female,Breast,III,5.36,G1,Yes,"CAD, Hypertension",Radiotherapy + 2nd Line Chemo,21.8,1
+PT-000492,62,Male,Prostate,III,"5,19",G2,Yes,CAD,Chemotherapy + 2nd Line Chemo,31.2,1
+PT-000493,55,Male,Prostate,IV,6.06 cm,Gx,Yes,"Diabetes Type 2, CAD",Targeted Therapy + 2nd Line Chemo,10.5,1
+PT-000494,64,Male,Colorectal,IV,8.91,G1,No,"Diabetes Type 2, Hypertension",Targeted Therapy,23.2,1
+PT-000495,56,Male,Pancreatic,Metastatic,6.92,G2,Yes,None,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000496,62,Female,Colorectal,Metastatic,7.16,G1,Yes,None,Chemotherapy + 2nd Line Chemo,11.3,1
+PT-000497,75,Male,Prostate,III,4.94,G1,No,"COPD, Hypertension",Radiotherapy,22.9,1
+PT-000498,47,Female,Pancreatic,I,1.86,Gx,No,None,Surgery,49.3,1
+PT-000499,73,Female,Lung CA,III,5.17,G2,No,Obesity,Surgery,14.5,1
+PT-000500,75,Female,Lung,3,7.39,G1,No,Diabetes Type 2,Radiotherapy,17.8,1
+PT-000501,58,Female,Invasive Ductal,I,1.51,G3,No,None,Surgery,59.8,1
+PT-000502,34,Male,Lung CA,Metastatic,5.42,G2,Yes,"COPD, Obesity",Immunotherapy + 2nd Line Chemo,3.4,1
+PT-000503,52,Female,Colorectal,IV,"7,07",G3,No,None,Targeted Therapy,1.0,1
+PT-000504,75,Female,Breast,3,5.21,G1,No,None,Chemotherapy,55.3,1
+PT-000505,59,Male,Colorectal,Metastatic,4.83,G1,No,Obesity,Immunotherapy,23.9,1
+PT-000506,48,Female,Lung,Stage 2,2.47,G2,No,None,Radiotherapy,60.0,0
+PT-000507,53,female,Colorectal,I,"1,65",G2,No,Obesity,Surgery,58.0,1
+PT-000508,70,Female,Colorectal,IV,5.01 cm,G1,Yes,Hypertension,Targeted Therapy + 2nd Line Chemo,42.2,1
+PT-000509,66,Female,Colorectal,Metastatic,7.5,G3,Yes,CAD,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000510,57,Female,Colorectal,IV,8.29,G2,Yes,"Diabetes Type 2, CAD",Chemotherapy + 2nd Line Chemo,30.9,1
+PT-000511,55,Male,Pancreatic,3,5.03,G2,No,"Hypertension, CAD",Chemotherapy,24.3,1
+PT-000512,55,Female,Colorectal,IV,3.62,G3,Yes,None,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000513,48,Female,Breast,III,3.53,G2,No,Diabetes Type 2,Chemotherapy,45.8,1
+PT-000514,79,Male,Lung,I,1.44,G2,No,None,Surgery,60.0,0
+PT-000515,56,Male,Colorectal,I,"1,63",G3,No,"CAD, Hypertension",Surgery,37.4,1
+PT-000516,74,Male,Prostate,II,3.51,G2,No,None,Radiotherapy,48.9,1
+PT-000517,78,Female,Breast,II,2.94,G2,No,"COPD, CAD",Surgery,59.7,1
+PT-000518,71,Female,Colorectal,I,2.21,G3,No,Diabetes Type 2,Surgery,54.2,1
+PT-000519,54,Male,Lung,III,4.37,Gx,Yes,None,Radiotherapy + 2nd Line Chemo,1.0,1
+PT-000520,64,Female,Lung CA,Metastatic,9.64,Gx,Yes,"CAD, Hypertension",Chemotherapy + 2nd Line Chemo,22.6,1
+PT-000521,59,Male,Lung,I,1.06,G1,No,Obesity,Surgery,54.1,1
+PT-000522,49,Female,Lung,IV,6.87,G3,No,Diabetes Type 2,Immunotherapy,1.0,1
+PT-000523,63,Female,Breast,III,5.36,Gx,No,None,Chemotherapy,51.3,1
+PT-000524,45,Female,Breast,II,3.59,G2,No,"COPD, Obesity",Radiotherapy,59.7,1
+PT-000525,74,Male,Lung,II,"3,62",G3,No,None,Surgery,60.0,0
+PT-000526,54,Male,Prostate,1,1.84,Gx,No,Diabetes Type 2,Surgery,60.0,0
+PT-000527,62,male,Colon Cancer,Stage 2,"2,86",Gx,No,Hypertension,Radiotherapy,60.0,1
+PT-000528,63,Male,Prostate,I,0.19,Gx,No,Hypertension,Surgery,58.2,1
+PT-000529,56,Female,Breast,II,5.55,G1,Yes,None,Surgery + 2nd Line Chemo,55.8,1
+PT-000530,67,Female,Lung,I,1.94,Gx,No,None,Surgery,55.0,1
+PT-000531,54,Female,Lung,II,3.95,G2,No,"COPD, Obesity",Surgery,49.8,1
+PT-000532,70,Female,Breast,II,3.19,G1,Yes,CAD,Radiotherapy + 2nd Line Chemo,57.3,1
+PT-000533,43,Female,Lung,3,"4,95",Gx,Yes,"COPD, Diabetes Type 2",Chemotherapy + 2nd Line Chemo,28.3,1
+PT-000534,61,Female,Breast,II,1.76,G2,No,"Hypertension, Obesity",Surgery,60.0,0
+PT-000535,83,Female,Breast,I,1.62 cm,Gx,No,CAD,Surgery,60.0,0
+PT-000536,47,Female,Lung,Metastatic,5.64,G1,Yes,"COPD, Hypertension",Immunotherapy + 2nd Line Chemo,8.6,1
+PT-000537,51,Male,Prostate,III,6.45,Gx,No,Hypertension,Surgery,40.2,1
+PT-000538,66,Male,Prostate,1,1.82,G1,No,Hypertension,Surgery,52.8,1
+PT-000539,62,M,Prostate,II,2.53,G3,No,None,Radiotherapy,55.2,1
+PT-000540,64,Female,Lung,Metastatic,5.36,G1,Yes,COPD,Chemotherapy + 2nd Line Chemo,14.2,1
+PT-000541,65,F,Breast,I,0.89,G2,No,CAD,Surgery,60.0,0
+PT-000542,67,Male,Prostate,IV,6.22,G1,Yes,None,Chemotherapy + 2nd Line Chemo,3.1,1
+PT-000543,73,Female,Colorectal,III,3.47,G2,Yes,"Obesity, COPD",Radiotherapy + 2nd Line Chemo,24.5,1
+PT-000544,64,Female,Lung,III,4.22,Gx,No,Diabetes Type 2,Radiotherapy,49.5,1
+PT-000545,57,Male,Prostate,1,2.16 cm,Gx,No,"Obesity, CAD",Surgery,60.0,0
+PT-000546,68,Male,Prostate,III,7.5,G3,No,COPD,Chemotherapy,19.1,1
+PT-000547,82,Female,Lung,IV,7.61,G1,Yes,None,Targeted Therapy + 2nd Line Chemo,25.7,1
+PT-000548,58,Female,Breast,I,"2,05",G3,No,CAD,Surgery,29.6,1
+PT-000549,48,Female,Colon Cancer,I,0.4,Gx,No,None,Surgery,60.0,0
+PT-000550,73,Female,Lung,Metastatic,7.01,G1,No,CAD,Immunotherapy,4.8,1
+PT-000551,58,Female,Breast,Stage 2,4.23,Gx,No,None,Surgery,60.0,0
+PT-000552,33,Female,Lung,III,7.62,G2,Yes,None,Radiotherapy + 2nd Line Chemo,11.5,1
+PT-000553,70,Female,Colorectal,I,2.02,G3,No,None,Surgery,60.0,0
+PT-000554,53,Female,Colorectal,III,5.49,G2,No,"Hypertension, Diabetes Type 2",Radiotherapy,39.0,1
+PT-000555,58,Male,Pancreatic,III,2.92,G2,Yes,"CAD, Obesity",Chemotherapy + 2nd Line Chemo,10.6,1
+PT-000556,63,male,Pancreatic,III,4.02,G2,No,None,Radiotherapy,27.2,1
+PT-000557,62,Male,Prostate,II,2.76,G3,No,Obesity,Radiotherapy,57.6,1
+PT-000558,68,Female,Invasive Ductal,II,1.53,Gx,No,None,Surgery,49.1,1
+PT-000559,54,Female,Breast,II,1.63 cm,G2,No,"Obesity, CAD",Radiotherapy,50.2,1
+PT-000560,66,Female,Breast,IV,8.13,G1,Yes,"CAD, COPD",Immunotherapy + 2nd Line Chemo,17.8,1
+PT-000561,56,Male,Prostate,III,"7,45",G2,No,"Hypertension, COPD",Chemotherapy,19.5,1
+PT-000562,68,Male,Lung,1,1.44,G1,No,"CAD, Diabetes Type 2",Surgery,53.0,1
+PT-000563,67,Male,Lung CA,III,5.85,G3,No,"Diabetes Type 2, CAD",Chemotherapy,60.0,0
+PT-000564,48,Male,Lung CA,III,4.36,G2,No,None,Surgery,28.4,1
+PT-000565,73,Female,Breast,II,2.55,Gx,No,CAD,Radiotherapy,60.0,0
+PT-000566,53,Male,Colon Cancer,I,2.3,G3,Yes,"CAD, Hypertension",Surgery + 2nd Line Chemo,33.0,1
+PT-000567,69,Male,Lung,3,6.1,Gx,No,CAD,Chemotherapy,46.1,1
+PT-000568,64,Female,Invasive Ductal,II,3.16,G2,Yes,None,Radiotherapy + 2nd Line Chemo,57.9,1
+PT-000569,82,Male,Lung,II,3.4,G3,No,None,Surgery,60.0,0
+PT-000570,57,Female,Breast,1,2.14,G2,No,COPD,Surgery,57.6,1
+PT-000571,55,Female,Pancreatic,IV,7.03,G1,Yes,None,Targeted Therapy + 2nd Line Chemo,18.9,1
+PT-000572,59,Male,Prostate,IV,8.43 cm,G2,Yes,None,Targeted Therapy + 2nd Line Chemo,2.9,1
+PT-000573,56,Female,Breast,II,"5,39",G3,No,Obesity,Radiotherapy,52.8,1
+PT-000574,69,Female,Breast,II,2.83,G3,No,Obesity,Radiotherapy,52.9,1
+PT-000575,40,Female,Pancreatic,3,3.78 cm,G2,No,CAD,Chemotherapy,11.5,1
+PT-000576,47,Male,Colorectal,IV,8.46,Gx,Yes,"CAD, COPD",Targeted Therapy + 2nd Line Chemo,6.6,1
+PT-000577,47,Female,Lung CA,IV,7.7,G2,Yes,Hypertension,Targeted Therapy + 2nd Line Chemo,11.9,1
+PT-000578,71,Male,Prostate,Metastatic,6.72,G2,No,None,Chemotherapy,14.8,1
+PT-000579,80,Male,Lung CA,II,2.58,Gx,No,None,Radiotherapy,60.0,0
+PT-000580,58,Male,Prostate,III,4.97,G2,Yes,None,Surgery + 2nd Line Chemo,19.9,1
+PT-000581,57,Female,Invasive Ductal,1,1.64,G3,No,None,Surgery,60.0,0
+PT-000582,60,Male,Lung,III,5.3,G3,No,"COPD, CAD",Radiotherapy,40.3,1
+PT-000583,73,Male,Prostate,III,5.15,G1,No,None,Radiotherapy,39.8,1
+PT-000584,48,Female,Lung CA,III,6.43,G2,No,"COPD, Diabetes Type 2",Surgery,29.6,1
+PT-000585,62,Male,Lung,III,8.49,Gx,No,"Hypertension, COPD",Surgery,30.8,1
+PT-000586,71,Male,Colorectal,II,1.61,G2,Yes,COPD,Radiotherapy + 2nd Line Chemo,43.8,1
+PT-000587,66,Male,Lung,3,7.56,G2,No,None,Radiotherapy,18.6,1
+PT-000588,62,male,Pancreatic,II,2.23,G3,No,None,Surgery,23.0,1
+PT-000589,72,male,Prostate,Metastatic,7.14,Gx,Yes,"CAD, Hypertension",Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000590,27,Male,Prostate,IV,4.94,G1,Yes,"Obesity, CAD",Chemotherapy + 2nd Line Chemo,26.2,1
+PT-000591,68,Female,Breast,Stage 2,3.05,G1,No,"Obesity, Diabetes Type 2",Radiotherapy,60.0,0
+PT-000592,52,Male,Lung,II,2.87 cm,G3,No,None,Radiotherapy,59.4,1
+PT-000593,38,Male,Prostate,II,3.52 cm,G2,No,"CAD, Diabetes Type 2",Radiotherapy,60.0,0
+PT-000594,66,Female,Pancreatic,Stage 2,2.74 cm,G3,No,CAD,Surgery,37.0,1
+PT-000595,76,male,Lung,I,1.47,G1,No,Diabetes Type 2,Surgery,60.0,0
+PT-000596,58,Female,Lung,Metastatic,7.3,G3,No,None,Chemotherapy,2.7,1
+PT-000597,71,Male,Lung,IV,7.2,G3,No,None,Immunotherapy,11.3,1
+PT-000598,79,Male,Prostate,I,1.74,G1,No,None,Surgery,60.0,0
+PT-000599,75,Male,Lung,1,1.86 cm,G1,No,COPD,Surgery,44.1,1
+PT-000600,79,Male,Lung,IV,9.07 cm,Gx,Yes,Diabetes Type 2,Immunotherapy + 2nd Line Chemo,47.2,1
+PT-000601,68,Male,Pancreatic,1,1.3 cm,G2,Yes,CAD,Surgery + 2nd Line Chemo,35.3,1
+PT-000602,60,Male,Prostate,Metastatic,11.55,Gx,Yes,None,Immunotherapy + 2nd Line Chemo,11.7,1
+PT-000603,40,Male,Pancreatic,III,3.72,G1,No,"Obesity, Diabetes Type 2",Chemotherapy,40.1,1
+PT-000604,57,Male,Prostate,III,"4,72",G3,Yes,CAD,Surgery + 2nd Line Chemo,31.0,1
+PT-000605,49,male,Prostate,I,0.93 cm,G3,No,"Diabetes Type 2, Hypertension",Surgery,50.5,1
+PT-000606,86,Male,Colorectal,1,1.12,G3,No,COPD,Surgery,51.6,1
+PT-000607,57,Male,Lung,II,1.87,G3,No,"Hypertension, CAD",Radiotherapy,32.0,1
+PT-000608,61,Female,Breast,II,2.88,Gx,Yes,None,Radiotherapy + 2nd Line Chemo,43.3,1
+PT-000609,66,Female,Lung,3,5.02,G2,No,"Diabetes Type 2, Obesity",Surgery,46.2,1
+PT-000610,60,male,Colorectal,III,4.45 cm,G2,No,COPD,Chemotherapy,45.3,1
+PT-000611,80,Female,Breast,I,1.61,G3,No,Obesity,Surgery,60.0,0
+PT-000612,52,Female,Breast,I,2.01,G2,No,None,Surgery,58.6,1
+PT-000613,62,Male,Lung,Stage 2,2.66 cm,G3,No,"CAD, Obesity",Radiotherapy,33.4,1
+PT-000614,51,Female,Breast,II,"4,16",G1,No,None,Radiotherapy,60.0,0
+PT-000615,44,Female,Lung,3,4.24,G2,No,"COPD, Hypertension",Chemotherapy,57.2,1
+PT-000616,52,Male,Pancreatic,IV,7.58,G2,Yes,Diabetes Type 2,Chemotherapy + 2nd Line Chemo,5.8,1
+PT-000617,59,Male,Prostate,III,4.24,G2,Yes,None,Chemotherapy + 2nd Line Chemo,28.0,1
+PT-000618,54,Female,Breast,II,2.57,G3,No,"Diabetes Type 2, CAD",Radiotherapy,60.0,0
+PT-000619,51,Female,Breast,II,"3,42",G1,No,None,Radiotherapy,60.0,0
+PT-000620,43,Male,Prostate,III,2.9,G3,No,None,Surgery,31.4,1
+PT-000621,59,Male,Lung,II,4.2,G3,No,"Diabetes Type 2, COPD",Radiotherapy,34.3,1
+PT-000622,41,Male,Colorectal,IV,5.8,Gx,No,None,Targeted Therapy,13.0,1
+PT-000623,69,Male,Prostate,Metastatic,"3,88",Gx,Yes,CAD,Targeted Therapy + 2nd Line Chemo,17.5,1
+PT-000624,60,female,Invasive Ductal,I,1.27,G2,No,CAD,Surgery,40.7,1
+PT-000625,42,Male,Lung CA,II,1.52,G2,No,None,Surgery,60.0,0
+PT-000626,56,male,Colorectal,III,5.41,G3,Yes,None,Radiotherapy + 2nd Line Chemo,24.6,1
+PT-000627,50,Female,Lung,I,1.71,Gx,No,Obesity,Surgery,60.0,0
+PT-000628,63,Male,Lung,I,"0,83",G3,No,Hypertension,Surgery,60.0,0
+PT-000629,76,Male,Prostate,I,1.86 cm,G2,No,COPD,Surgery,60.0,0
+PT-000630,37,Female,Breast,I,0.76,G1,No,None,Surgery,34.0,1
+PT-000631,61,Female,Colorectal,I,0.87,Gx,No,None,Surgery,60.0,0
+PT-000632,58,Female,Breast,3,3.17 cm,G2,No,"Hypertension, CAD",Surgery,48.5,1
+PT-000633,68,Female,Breast,III,7.05,G2,Yes,CAD,Surgery + 2nd Line Chemo,33.1,1
+PT-000634,62,Male,Colorectal,IV,7.16,Gx,Yes,"COPD, Hypertension",Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000635,50,Male,Lung,I,1.88 cm,Gx,No,None,Surgery,50.7,1
+PT-000636,56,Female,Pancreatic,III,4.81,G2,Yes,COPD,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000637,50,Male,Prostate,1,1.07,G2,No,COPD,Surgery,35.8,1
+PT-000638,72,Male,Prostate,I,1.17 cm,Gx,No,None,Surgery,60.0,1
+PT-000639,60,Male,Colorectal,I,1.37,G2,No,COPD,Surgery,50.4,1
+PT-000640,82,Male,Lung,III,6.63 cm,Gx,No,"Diabetes Type 2, COPD",Chemotherapy,60.0,0
+PT-000641,59,Male,Prostate,I,1.61,G2,No,None,Surgery,58.0,1
+PT-000642,51,Male,Lung,III,4.19,G2,Yes,"Hypertension, Diabetes Type 2",Surgery + 2nd Line Chemo,45.5,1
+PT-000643,41,Male,Pancreatic,Metastatic,6.49,G2,No,None,Chemotherapy,1.0,1
+PT-000644,38,Male,Lung,1,1.24,Gx,No,None,Surgery,53.6,1
+PT-000645,40,Female,Pancreatic,3,3.8,G2,No,Hypertension,Chemotherapy,26.2,1
+PT-000646,63,F,Lung,IV,4.89,G2,Yes,None,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000647,66,Female,Colorectal,II,3.43,G1,No,COPD,Surgery,54.9,1
+PT-000648,41,female,Breast,II,1.0 cm,Gx,No,Obesity,Surgery,57.4,1
+PT-000649,70,Male,Pancreatic,IV,7.07,G3,No,CAD,Immunotherapy,1.0,1
+PT-000650,54,Male,Pancreatic,III,2.55,G2,No,"Obesity, COPD",Radiotherapy,47.3,1
+PT-000651,61,Female,Pancreatic,III,3.64,G3,Yes,"Hypertension, Obesity",Surgery + 2nd Line Chemo,9.5,1
+PT-000652,79,Female,Lung,I,1.4,G3,No,"Diabetes Type 2, Obesity",Surgery,55.8,1
+PT-000653,70,Female,Colon Cancer,II,1.5,G2,No,COPD,Radiotherapy,60.0,0
+PT-000654,56,Male,Prostate,1,0.95 cm,Gx,No,"Diabetes Type 2, Hypertension",Surgery,60.0,0
+PT-000655,49,Male,Pancreatic,IV,"6,86",G3,Yes,"Hypertension, CAD",Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000656,34,Male,Pancreatic,IV,8.22,G2,Yes,COPD,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000657,51,Male,Prostate,II,2.44 cm,G1,No,"COPD, CAD",Surgery,60.0,0
+PT-000658,57,Female,Breast,IV,"9,7",Gx,Yes,None,Immunotherapy + 2nd Line Chemo,23.9,1
+PT-000659,48,Female,Pancreatic,III,2.73,G1,Yes,"Hypertension, COPD",Surgery + 2nd Line Chemo,28.5,1
+PT-000660,58,Male,Pancreatic,III,"3,0",G1,No,"COPD, Diabetes Type 2",Surgery,22.1,1
+PT-000661,60,Female,Breast,IV,2.64,G3,No,None,Chemotherapy,19.2,1
+PT-000662,57,Female,Lung,II,1.59,G3,No,CAD,Surgery,47.7,1
+PT-000663,52,Male,Lung,IV,8.61 cm,G1,No,"CAD, COPD",Chemotherapy,20.4,1
+PT-000664,62,Male,Prostate,Stage 2,1.81,Gx,No,"COPD, Hypertension",Radiotherapy,54.3,1
+PT-000665,65,Male,Prostate,I,1.3,G2,No,Obesity,Surgery,57.8,1
+PT-000666,46,Male,Pancreatic,3,4.21,G2,No,"Hypertension, Diabetes Type 2",Chemotherapy,41.1,1
+PT-000667,76,Male,Prostate,I,1.24 cm,G2,No,"COPD, CAD",Surgery,60.0,0
+PT-000668,58,Male,Pancreatic,IV,5.86 cm,G3,Yes,"CAD, COPD",Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000669,60,Male,Colon Cancer,IV,4.64 cm,G2,No,None,Chemotherapy,2.6,1
+PT-000670,68,Male,Colon Cancer,IV,5.46,G1,Yes,None,Chemotherapy + 2nd Line Chemo,6.3,1
+PT-000671,62,Female,Lung,III,2.34,G1,Yes,"Obesity, Hypertension",Radiotherapy + 2nd Line Chemo,27.1,1
+PT-000672,71,Male,Lung,Metastatic,6.89,Gx,Yes,None,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000673,63,Female,Breast,1,2.09,G1,No,Hypertension,Surgery,60.0,0
+PT-000674,52,Male,Colorectal,IV,4.3,G1,No,None,Targeted Therapy,14.8,1
+PT-000675,64,Female,Breast,II,4.77 cm,G1,No,"Diabetes Type 2, Obesity",Radiotherapy,60.0,0
+PT-000676,46,M,Colorectal,3,6.46,G1,Yes,None,Radiotherapy + 2nd Line Chemo,31.5,1
+PT-000677,61,male,Colorectal,1,2.2,G2,No,"Obesity, Hypertension",Surgery,48.5,1
+PT-000678,59,Female,Breast,III,2.05,Gx,No,Hypertension,Surgery,35.2,1
+PT-000679,57,F,Breast,I,1.49,G3,No,Obesity,Surgery,50.9,1
+PT-000680,58,Female,Lung CA,I,1.42,G1,No,"Obesity, Hypertension",Surgery,60.0,0
+PT-000681,37,Male,Pancreatic,III,7.46,G3,No,Obesity,Radiotherapy,18.1,1
+PT-000682,53,M,Prostate,Metastatic,2.23,G3,No,"Diabetes Type 2, CAD",Immunotherapy,2.1,1
+PT-000683,61,female,Breast,I,1.87,G2,No,None,Surgery,60.0,0
+PT-000684,61,F,Breast,Stage 2,3.43,G2,Yes,"Diabetes Type 2, Obesity",Surgery + 2nd Line Chemo,60.0,0
+PT-000685,47,Female,Breast,II,1.72,Gx,No,CAD,Radiotherapy,60.0,0
+PT-000686,75,Female,Colorectal,I,"1,58",Gx,No,COPD,Surgery,60.0,0
+PT-000687,49,Male,Pancreatic,III,2.93 cm,G2,No,None,Chemotherapy,33.7,1
+PT-000688,71,Female,Lung,I,1.39,G3,No,"CAD, Obesity",Surgery,60.0,0
+PT-000689,65,male,Prostate,IV,6.72,G3,Yes,Diabetes Type 2,Immunotherapy + 2nd Line Chemo,12.9,1
+PT-000690,52,Male,Lung,I,1.75,G2,No,Obesity,Surgery,60.0,0
+PT-000691,81,Male,Prostate,I,1.81,G2,No,"Obesity, Diabetes Type 2",Surgery,60.0,0
+PT-000692,45,Female,Breast,III,3.72,Gx,No,None,Surgery,27.0,1
+PT-000693,71,Male,Lung,I,1.19 cm,G3,No,COPD,Surgery,32.0,1
+PT-000694,72,Male,Prostate,IV,6.68 cm,Gx,Yes,"CAD, Diabetes Type 2",Chemotherapy + 2nd Line Chemo,11.9,1
+PT-000695,51,Female,Breast,1,2.75,G2,No,"COPD, Diabetes Type 2",Surgery,60.0,0
+PT-000696,76,Male,Prostate,III,6.84,G2,Yes,None,Radiotherapy + 2nd Line Chemo,23.5,1
+PT-000697,56,Female,Breast,II,2.8,G2,No,"COPD, CAD",Radiotherapy,60.0,0
+PT-000698,63,Male,Prostate,I,1.41,G1,No,None,Surgery,37.6,1
+PT-000699,63,Male,Lung,II,3.64,G3,No,CAD,Surgery,43.6,1
+PT-000700,58,Female,Pancreatic,III,3.43,G2,No,None,Surgery,19.2,1
+PT-000701,69,Male,Pancreatic,IV,6.95,G3,No,CAD,Immunotherapy,1.0,1
+PT-000702,69,Male,Prostate,Metastatic,7.55,G2,Yes,None,Immunotherapy + 2nd Line Chemo,27.9,1
+PT-000703,39,Male,Lung CA,I,"1,0",G2,No,Obesity,Surgery,43.7,1
+PT-000704,75,Male,Prostate,I,0.83,G3,No,"COPD, Hypertension",Surgery,42.9,1
+PT-000705,40,Female,Breast,III,5.02,G3,Yes,"Hypertension, Diabetes Type 2",Radiotherapy + 2nd Line Chemo,30.9,1
+PT-000706,72,Male,Colorectal,II,4.19,G1,No,CAD,Radiotherapy,60.0,0
+PT-000707,73,Female,Lung,IV,10.08,G1,Yes,None,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000708,46,Male,Colorectal,3,5.61 cm,G2,Yes,None,Radiotherapy + 2nd Line Chemo,38.2,1
+PT-000709,55,Female,Pancreatic,IV,6.45,G1,Yes,None,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000710,46,Female,Lung,1,1.39,Gx,No,CAD,Surgery,60.0,0
+PT-000711,57,Female,Breast,I,1.99 cm,Gx,No,Obesity,Surgery,60.0,0
+PT-000712,56,Male,Pancreatic,II,3.66,G1,No,CAD,Surgery,43.3,1
+PT-000713,69,male,Prostate,IV,10.53 cm,G2,Yes,Diabetes Type 2,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000714,75,Male,Lung,II,3.39 cm,G2,No,Hypertension,Surgery,51.1,1
+PT-000715,76,Female,Invasive Ductal,I,1.42 cm,G3,No,Obesity,Surgery,40.1,1
+PT-000716,53,Female,Pancreatic,Metastatic,"5,38",G1,No,None,Targeted Therapy,21.5,1
+PT-000717,57,female,Colorectal,II,"3,37",G3,No,CAD,Surgery,50.2,1
+PT-000718,39,Male,Prostate,1,2.54,G1,No,Diabetes Type 2,Surgery,60.0,0
+PT-000719,50,Female,Pancreatic,IV,4.98,Gx,Yes,None,Chemotherapy + 2nd Line Chemo,13.2,1
+PT-000720,71,female,Breast,Stage 2,3.76,G2,No,"Obesity, COPD",Radiotherapy,31.7,1
+PT-000721,79,Male,Prostate,III,2.39,G1,No,"Obesity, Diabetes Type 2",Chemotherapy,55.3,1
+PT-000722,45,Male,Pancreatic,III,3.69,Gx,No,COPD,Chemotherapy,25.7,1
+PT-000723,52,Female,Breast,III,3.79 cm,G2,Yes,Obesity,Surgery + 2nd Line Chemo,35.2,1
+PT-000724,59,Female,Pancreatic,Metastatic,7.01,G2,Yes,None,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000725,63,Female,Colorectal,IV,4.04,Gx,Yes,None,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000726,50,Male,Prostate,II,5.5,G2,No,None,Radiotherapy,60.0,0
+PT-000727,65,F,Breast,I,1.52,G3,No,"Hypertension, Obesity",Surgery,60.0,0
+PT-000728,54,Male,Lung,Metastatic,5.1,G1,Yes,None,Immunotherapy + 2nd Line Chemo,22.0,1
+PT-000729,59,Male,Pancreatic,III,4.49 cm,G2,Yes,"CAD, Diabetes Type 2",Radiotherapy + 2nd Line Chemo,30.2,1
+PT-000730,66,Male,Colorectal,IV,4.46,G3,Yes,"Hypertension, Diabetes Type 2",Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000731,60,Female,Lung,3,4.75,G3,No,"Obesity, Diabetes Type 2",Surgery,22.8,1
+PT-000732,54,F,Pancreatic,IV,6.2 cm,Gx,No,COPD,Targeted Therapy,1.0,1
+PT-000733,58,Female,Pancreatic,II,2.25,G2,No,COPD,Radiotherapy,39.1,1
+PT-000734,58,male,Lung,II,"3,06",G2,No,None,Surgery,35.4,1
+PT-000735,55,Female,Breast,3,4.09,G2,No,"CAD, Obesity",Radiotherapy,31.3,1
+PT-000736,56,Male,Pancreatic,Metastatic,7.17,G1,Yes,"CAD, Obesity",Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000737,79,Female,Breast,3,3.45,Gx,Yes,"Diabetes Type 2, Obesity",Surgery + 2nd Line Chemo,27.9,1
+PT-000738,66,Male,Pancreatic,IV,7.9,G3,Yes,Hypertension,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000739,56,Male,Lung,I,1.37,G2,No,CAD,Surgery,60.0,0
+PT-000740,68,Male,Lung CA,I,1.28,G2,No,CAD,Surgery,59.8,1
+PT-000741,55,Male,Colorectal,IV,4.57,G1,Yes,Diabetes Type 2,Targeted Therapy + 2nd Line Chemo,3.0,1
+PT-000742,74,female,Invasive Ductal,3,4.14,G3,No,Hypertension,Radiotherapy,6.4,1
+PT-000743,64,Female,Invasive Ductal,1,1.36,G3,No,"Diabetes Type 2, COPD",Surgery,43.1,1
+PT-000744,58,Male,Lung CA,III,2.35,Gx,No,Hypertension,Chemotherapy,28.3,1
+PT-000745,65,Female,Colorectal,1,1.68,G2,No,None,Surgery,60.0,0
+PT-000746,41,Male,Lung,IV,6.91,G3,Yes,"Diabetes Type 2, Obesity",Targeted Therapy + 2nd Line Chemo,10.9,1
+PT-000747,46,Female,Lung,II,1.77,Gx,No,"Obesity, Hypertension",Surgery,60.0,0
+PT-000748,45,Female,Lung CA,Metastatic,5.96,G1,Yes,None,Immunotherapy + 2nd Line Chemo,19.1,1
+PT-000749,61,Female,Pancreatic,IV,8.71,G2,Yes,Diabetes Type 2,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000750,80,Male,Lung,IV,7.21,Gx,Yes,"COPD, Diabetes Type 2",Chemotherapy + 2nd Line Chemo,3.7,1
+PT-000751,86,Female,Breast,II,2.68,G3,No,None,Surgery,41.0,1
+PT-000752,67,Female,Lung,I,1.85 cm,G3,No,None,Surgery,31.9,1
+PT-000753,66,Male,Lung,Metastatic,5.33,G3,No,Obesity,Chemotherapy,21.9,1
+PT-000754,38,Male,Colorectal,I,1.73,G2,No,"Hypertension, Diabetes Type 2",Surgery,57.9,1
+PT-000755,53,Female,Breast,II,5.1,G2,No,None,Radiotherapy,45.0,1
+PT-000756,50,Female,Breast,II,3.3,G1,No,Diabetes Type 2,Radiotherapy,50.1,1
+PT-000757,52,F,Breast,Stage 2,"3,14",G3,No,None,Surgery,39.6,1
+PT-000758,57,Female,Pancreatic,IV,7.59,G2,Yes,Hypertension,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000759,54,Female,Breast,III,4.64,G2,No,"Hypertension, Obesity",Chemotherapy,52.8,1
+PT-000760,36,Male,Colorectal,III,6.65,G3,Yes,Hypertension,Surgery + 2nd Line Chemo,15.8,1
+PT-000761,68,Male,Lung,I,2.22,G2,No,"CAD, Hypertension",Surgery,33.0,1
+PT-000762,47,Male,Prostate,I,0.88,G3,No,CAD,Surgery,47.7,1
+PT-000763,62,Female,Breast,I,1.37,Gx,Yes,Hypertension,Surgery + 2nd Line Chemo,48.1,1
+PT-000764,84,male,Lung,II,2.89 cm,G3,No,Hypertension,Surgery,47.3,1
+PT-000765,48,female,Breast,1,1.52,Gx,No,COPD,Surgery,52.5,1
+PT-000766,29,Female,Breast,I,1.59,G2,No,None,Surgery,60.0,0
+PT-000767,56,Female,Breast,I,1.29,Gx,No,COPD,Surgery,60.0,0
+PT-000768,73,M,Lung CA,III,2.76,Gx,Yes,Diabetes Type 2,Surgery + 2nd Line Chemo,29.7,1
+PT-000769,83,Female,Breast,II,0.88,G1,No,None,Radiotherapy,60.0,0
+PT-000770,45,Male,Lung,III,5.92,G2,Yes,Hypertension,Chemotherapy + 2nd Line Chemo,24.8,1
+PT-000771,65,Female,Breast,I,1.01,G2,No,None,Surgery,54.2,1
+PT-000772,54,M,Prostate,3,4.5,G2,Yes,None,Surgery + 2nd Line Chemo,46.6,1
+PT-000773,58,Male,Lung,Metastatic,3.41,G2,Yes,"CAD, Obesity",Immunotherapy + 2nd Line Chemo,16.7,1
+PT-000774,91,Female,Breast,I,1.18,G3,No,"COPD, CAD",Surgery,59.9,1
+PT-000775,41,Male,Colorectal,III,5.31,G2,No,CAD,Chemotherapy,54.7,1
+PT-000776,63,Male,Prostate,I,"0,3",G3,No,"COPD, Obesity",Surgery,56.3,1
+PT-000777,65,Female,Pancreatic,IV,9.78,G2,Yes,None,Chemotherapy + 2nd Line Chemo,6.1,1
+PT-000778,73,Female,Invasive Ductal,I,0.37,G2,No,Obesity,Surgery,41.0,1
+PT-000779,61,Female,Breast,I,1.32,G3,No,None,Surgery,52.4,1
+PT-000780,63,Female,Breast,1,1.52,G2,No,"CAD, Hypertension",Surgery,57.8,1
+PT-000781,55,Female,Invasive Ductal,I,2.05 cm,G2,No,"Diabetes Type 2, CAD",Surgery,60.0,0
+PT-000782,63,Male,Colorectal,I,1.41 cm,G3,No,None,Surgery,60.0,0
+PT-000783,55,Male,Colorectal,IV,1.2,Gx,Yes,"Diabetes Type 2, COPD",Targeted Therapy + 2nd Line Chemo,2.4,1
+PT-000784,67,Male,Lung CA,II,3.8,G1,No,Obesity,Radiotherapy,60.0,0
+PT-000785,55,Female,Lung,IV,3.25,G3,Yes,"Hypertension, CAD",Immunotherapy + 2nd Line Chemo,2.0,1
+PT-000786,64,Female,Breast,III,5.97,G2,No,None,Surgery,45.5,1
+PT-000787,59,Male,Prostate,IV,"7,16",Gx,No,None,Targeted Therapy,7.8,1
+PT-000788,73,Male,Lung,I,2.09 cm,G2,No,"Hypertension, CAD",Surgery,60.0,0
+PT-000789,59,Female,Colorectal,I,1.7,G3,No,COPD,Surgery,47.3,1
+PT-000790,38,Male,Prostate,III,6.84 cm,G3,No,None,Surgery,33.4,1
+PT-000791,75,Female,Invasive Ductal,I,0.71,G1,Yes,"Hypertension, COPD",Surgery + 2nd Line Chemo,41.3,1
+PT-000792,49,Female,Breast,Stage 2,3.49,G2,No,Diabetes Type 2,Radiotherapy,53.0,1
+PT-000793,52,Female,Breast,I,1.92 cm,G1,No,"CAD, Obesity",Surgery,60.0,0
+PT-000794,52,Male,Prostate,Metastatic,5.57,G3,No,None,Targeted Therapy,1.0,1
+PT-000795,76,Female,Pancreatic,III,6.21,G2,No,"CAD, Hypertension",Surgery,13.3,1
+PT-000796,34,female,Breast,II,3.03,Gx,No,CAD,Surgery,59.4,1
+PT-000797,97,Female,Colon Cancer,3,2.94,G3,Yes,COPD,Radiotherapy + 2nd Line Chemo,10.7,1
+PT-000798,72,Female,Breast,III,6.03,G3,Yes,None,Chemotherapy + 2nd Line Chemo,9.4,1
+PT-000799,62,Female,Lung,I,"0,42",G3,No,None,Surgery,51.3,1
+PT-000800,59,Female,Pancreatic,IV,5.0,G1,Yes,None,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000801,63,Male,Prostate,III,7.43 cm,G3,No,None,Chemotherapy,17.9,1
+PT-000802,66,female,Breast,I,1.72,Gx,No,CAD,Surgery,60.0,0
+PT-000803,67,female,Lung,IV,6.21,G1,Yes,"Diabetes Type 2, CAD",Immunotherapy + 2nd Line Chemo,15.5,1
+PT-000804,66,Male,Pancreatic,III,3.5,Gx,No,"CAD, Hypertension",Chemotherapy,16.0,1
+PT-000805,61,Female,Breast,II,3.52 cm,G3,No,"COPD, Diabetes Type 2",Radiotherapy,55.0,1
+PT-000806,57,Female,Invasive Ductal,1,1.03,G2,No,"Diabetes Type 2, Obesity",Surgery,60.0,0
+PT-000807,58,Female,Breast,II,2.45,G3,No,"Diabetes Type 2, Obesity",Radiotherapy,60.0,0
+PT-000808,57,Male,Pancreatic,III,5.3,G3,Yes,"Hypertension, COPD",Chemotherapy + 2nd Line Chemo,3.5,1
+PT-000809,73,Male,Prostate,III,6.64,G2,No,"Diabetes Type 2, CAD",Surgery,51.7,1
+PT-000810,67,female,Pancreatic,Metastatic,11.98 cm,Gx,Yes,"CAD, Diabetes Type 2",Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000811,24,Female,Breast,I,1.36,G3,No,None,Surgery,37.3,1
+PT-000812,67,Male,Lung CA,I,0.52,G2,No,Hypertension,Surgery,60.0,0
+PT-000813,62,Female,Lung,III,4.12,G2,No,None,Chemotherapy,44.0,1
+PT-000814,59,Female,Invasive Ductal,II,3.82,G3,No,"CAD, Hypertension",Surgery,39.1,1
+PT-000815,55,Female,Invasive Ductal,II,3.82,G3,Yes,None,Surgery + 2nd Line Chemo,43.1,1
+PT-000816,73,Female,Colorectal,III,2.98,G3,No,Obesity,Surgery,22.5,1
+PT-000817,71,male,Pancreatic,III,3.71,G3,No,None,Radiotherapy,11.7,1
+PT-000818,50,Male,Pancreatic,IV,12.28,Gx,Yes,Hypertension,Targeted Therapy + 2nd Line Chemo,7.3,1
+PT-000819,64,Male,Lung,I,1.8,G3,No,None,Surgery,60.0,0
+PT-000820,48,Female,Breast,Stage 2,3.18 cm,G2,No,COPD,Surgery,48.0,1
+PT-000821,43,Male,Colorectal,IV,6.45,Gx,Yes,"COPD, Diabetes Type 2",Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000822,52,Male,Lung,III,5.28,G3,No,Hypertension,Radiotherapy,25.1,1
+PT-000823,70,Male,Colorectal,II,3.45,G3,No,None,Surgery,49.7,1
+PT-000824,71,Female,Breast,I,2.27,Gx,No,None,Surgery,52.1,1
+PT-000825,66,Female,Lung,II,3.32,G2,No,"COPD, Diabetes Type 2",Surgery,60.0,0
+PT-000826,68,Male,Lung CA,Metastatic,"7,53",Gx,Yes,CAD,Chemotherapy + 2nd Line Chemo,14.2,1
+PT-000827,66,male,Lung,III,4.94,G1,No,None,Radiotherapy,44.9,1
+PT-000828,52,Female,Lung,II,3.07,G1,No,"Obesity, Hypertension",Surgery,44.8,1
+PT-000829,65,Male,Lung CA,Metastatic,8.48,G3,Yes,None,Immunotherapy + 2nd Line Chemo,14.0,1
+PT-000830,69,Male,Pancreatic,3,4.12,G1,No,None,Radiotherapy,1.0,1
+PT-000831,69,Male,Prostate,Stage 2,3.23,G3,No,None,Surgery,60.0,0
+PT-000832,74,Male,Lung,III,6.56,G3,Yes,"CAD, Obesity",Radiotherapy + 2nd Line Chemo,31.2,1
+PT-000833,68,Male,Lung,Stage 2,1.73 cm,G3,No,None,Surgery,44.8,1
+PT-000834,64,Male,Lung,IV,6.77,G1,Yes,None,Targeted Therapy + 2nd Line Chemo,25.3,1
+PT-000835,72,Male,Colorectal,III,5.22,G3,No,Diabetes Type 2,Surgery,29.2,1
+PT-000836,59,Female,Breast,I,1.65,G3,No,None,Surgery,50.7,1
+PT-000837,49,male,Lung,II,2.45 cm,G1,No,Diabetes Type 2,Surgery,60.0,0
+PT-000838,58,Female,Breast,III,"5,07",G1,No,None,Radiotherapy,60.0,0
+PT-000839,51,Female,Pancreatic,I,1.98,G2,No,CAD,Surgery,60.0,0
+PT-000840,51,Male,Colorectal,IV,7.13,G2,Yes,COPD,Targeted Therapy + 2nd Line Chemo,18.4,1
+PT-000841,58,female,Breast,II,2.63,G1,No,None,Radiotherapy,49.0,1
+PT-000842,50,Male,Pancreatic,III,3.84,G1,Yes,CAD,Radiotherapy + 2nd Line Chemo,16.7,1
+PT-000843,56,Female,Pancreatic,III,3.69,G1,Yes,Hypertension,Surgery + 2nd Line Chemo,5.2,1
+PT-000844,37,Male,Prostate,Metastatic,6.68 cm,G3,Yes,"COPD, Obesity",Immunotherapy + 2nd Line Chemo,9.9,1
+PT-000845,62,Male,Lung,IV,5.16,G3,No,None,Immunotherapy,11.7,1
+PT-000846,60,Male,Colorectal,II,4.58,Gx,No,"CAD, Obesity",Radiotherapy,46.5,1
+PT-000847,50,female,Pancreatic,III,4.08,G1,No,"Diabetes Type 2, Obesity",Chemotherapy,26.0,1
+PT-000848,67,Female,Breast,II,3.34 cm,G2,No,"Diabetes Type 2, COPD",Radiotherapy,49.8,1
+PT-000849,71,Female,Invasive Ductal,II,2.74,Gx,No,CAD,Surgery,60.0,0
+PT-000850,40,Male,Prostate,Stage 2,2.94,G3,No,"Obesity, Hypertension",Surgery,39.7,1
+PT-000851,50,female,Colon Cancer,II,2.25 cm,G1,No,"Diabetes Type 2, CAD",Surgery,60.0,0
+PT-000852,50,Male,Colorectal,III,3.99,G2,No,"COPD, Obesity",Surgery,49.0,1
+PT-000853,48,Female,Breast,I,1.98,G1,No,"CAD, Obesity",Surgery,59.4,1
+PT-000854,69,Male,Lung,I,1.22,G1,No,None,Surgery,55.3,1
+PT-000855,57,Male,Pancreatic,I,0.95,Gx,No,Diabetes Type 2,Surgery,47.4,1
+PT-000856,56,Male,Prostate,III,3.26,G1,No,None,Radiotherapy,48.4,1
+PT-000857,35,Male,Lung,II,4.58,Gx,No,Obesity,Radiotherapy,46.7,1
+PT-000858,67,Female,Lung,IV,6.05,G2,Yes,"Hypertension, Obesity",Chemotherapy + 2nd Line Chemo,13.1,1
+PT-000859,45,Male,Lung,III,"3,04",G2,No,None,Surgery,55.8,1
+PT-000860,60,Female,Invasive Ductal,3,4.87,Gx,Yes,"CAD, Diabetes Type 2",Radiotherapy + 2nd Line Chemo,36.9,1
+PT-000861,63,Male,Prostate,I,2.44,Gx,No,COPD,Surgery,60.0,0
+PT-000862,76,Female,Lung,IV,7.58,G2,Yes,None,Immunotherapy + 2nd Line Chemo,17.7,1
+PT-000863,44,Male,Pancreatic,3,4.45,G1,No,Diabetes Type 2,Radiotherapy,30.4,1
+PT-000864,23,Male,Lung,1,1.12,G2,No,None,Surgery,60.0,0
+PT-000865,62,Female,Breast,III,5.54,G1,Yes,None,Radiotherapy + 2nd Line Chemo,5.7,1
+PT-000866,81,Male,Pancreatic,III,"4,09",G3,No,"CAD, COPD",Surgery,1.0,1
+PT-000867,74,Male,Prostate,II,3.5 cm,G1,No,CAD,Surgery,60.0,0
+PT-000868,62,female,Breast,II,2.61,G3,No,"COPD, Obesity",Radiotherapy,31.9,1
+PT-000869,54,Female,Pancreatic,III,1.69,G1,Yes,Obesity,Radiotherapy + 2nd Line Chemo,19.8,1
+PT-000870,69,Male,Prostate,3,"4,76",G1,No,CAD,Radiotherapy,35.8,1
+PT-000871,48,Male,Prostate,1,1.65 cm,G3,No,None,Surgery,38.0,1
+PT-000872,65,Female,Breast,3,4.46,G2,Yes,CAD,Radiotherapy + 2nd Line Chemo,34.2,1
+PT-000873,66,Male,Prostate,1,1.87 cm,G1,No,None,Surgery,60.0,0
+PT-000874,72,Male,Colorectal,Metastatic,4.58,G3,No,Hypertension,Targeted Therapy,35.3,1
+PT-000875,93,Male,Prostate,III,5.09,G2,Yes,Hypertension,Chemotherapy + 2nd Line Chemo,22.5,1
+PT-000876,64,Female,Breast,I,2.22,G2,No,CAD,Surgery,60.0,0
+PT-000877,53,Female,Colorectal,IV,6.37,G2,Yes,None,Targeted Therapy + 2nd Line Chemo,14.2,1
+PT-000878,59,Male,Lung,II,2.65 cm,G2,No,Obesity,Radiotherapy,52.1,1
+PT-000879,38,Male,Pancreatic,II,2.41,G3,No,None,Radiotherapy,44.6,1
+PT-000880,51,Male,Lung CA,IV,3.11,G2,Yes,"Obesity, Hypertension",Immunotherapy + 2nd Line Chemo,16.8,1
+PT-000881,55,Female,Breast,I,1.99,G2,No,COPD,Surgery,60.0,0
+PT-000882,53,male,Prostate,I,2.05,G3,No,CAD,Surgery,53.2,1
+PT-000883,61,Male,Colorectal,Metastatic,8.43,Gx,Yes,"COPD, Obesity",Chemotherapy + 2nd Line Chemo,2.8,1
+PT-000884,50,Female,Colon Cancer,II,2.51,G2,No,None,Surgery,50.1,1
+PT-000885,73,Male,Prostate,IV,4.17,G3,Yes,Hypertension,Immunotherapy + 2nd Line Chemo,9.1,1
+PT-000886,60,Female,Breast,I,1.44,Gx,No,None,Surgery,57.3,1
+PT-000887,59,Male,Colorectal,IV,7.17,G2,No,"Diabetes Type 2, COPD",Targeted Therapy,19.0,1
+PT-000888,56,male,Lung,III,3.61,G1,No,COPD,Chemotherapy,43.4,1
+PT-000889,61,Male,Pancreatic,II,2.89,G1,No,None,Surgery,48.2,1
+PT-000890,69,Female,Pancreatic,Metastatic,6.14,G2,Yes,Obesity,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000891,49,Female,Breast,II,4.27,G2,No,"COPD, Obesity",Surgery,60.0,0
+PT-000892,52,Female,Pancreatic,3,1.88,G3,No,None,Radiotherapy,16.5,1
+PT-000893,56,Male,Colon Cancer,II,2.76 cm,G3,No,None,Radiotherapy,47.6,1
+PT-000894,43,Female,Colorectal,1,2.2,G2,No,None,Surgery,60.0,0
+PT-000895,50,Male,Colorectal,I,2.39,G1,No,None,Surgery,60.0,0
+PT-000896,54,Male,Prostate,3,4.74,Gx,No,None,Surgery,49.2,1
+PT-000897,70,Female,Breast,IV,9.2,G1,Yes,"CAD, Obesity",Chemotherapy + 2nd Line Chemo,16.5,1
+PT-000898,63,Male,Colorectal,3,4.23 cm,G3,No,None,Surgery,38.6,1
+PT-000899,62,Male,Lung,Stage 2,2.87,G3,No,"Diabetes Type 2, COPD",Surgery,60.0,0
+PT-000900,70,Male,Colorectal,II,1.41,G2,No,None,Radiotherapy,60.0,0
+PT-000901,58,Male,Lung,3,"4,0",G3,Yes,"CAD, COPD",Chemotherapy + 2nd Line Chemo,18.1,1
+PT-000902,64,Male,Lung,3,"4,45",G3,No,"CAD, COPD",Radiotherapy,16.5,1
+PT-000903,58,Female,Pancreatic,3,5.76,G1,No,"CAD, Hypertension",Radiotherapy,45.0,1
+PT-000904,63,Male,Colorectal,IV,3.39,G3,Yes,"Hypertension, Diabetes Type 2",Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000905,53,Female,Breast,I,1.67,G1,No,"CAD, Obesity",Surgery,54.3,1
+PT-000906,30,Female,Invasive Ductal,Metastatic,4.73,Gx,Yes,Hypertension,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000907,58,Male,Lung,Metastatic,"5,36",G1,Yes,None,Targeted Therapy + 2nd Line Chemo,14.1,1
+PT-000908,77,Male,Prostate,II,4.35 cm,G1,No,"COPD, Hypertension",Surgery,60.0,0
+PT-000909,71,Male,Colorectal,II,2.53,G2,No,None,Surgery,41.8,1
+PT-000910,71,Female,Lung,III,2.98 cm,Gx,No,None,Surgery,45.4,1
+PT-000911,74,Male,Colorectal,II,2.72 cm,G2,No,"Obesity, CAD",Radiotherapy,54.0,1
+PT-000912,61,Female,Breast,III,3.85 cm,Gx,Yes,CAD,Surgery + 2nd Line Chemo,60.0,0
+PT-000913,62,Male,Prostate,II,2.54,G2,No,COPD,Radiotherapy,53.2,1
+PT-000914,52,Female,Breast,I,"0,75",G2,No,None,Surgery,54.8,1
+PT-000915,56,Male,Prostate,I,1.0 cm,G2,No,Obesity,Surgery,49.5,1
+PT-000916,67,Male,Pancreatic,III,3.19,G1,Yes,CAD,Chemotherapy + 2nd Line Chemo,30.3,1
+PT-000917,74,Female,Invasive Ductal,I,1.9,G3,No,Obesity,Surgery,45.5,1
+PT-000918,58,Female,Lung,III,5.19,G2,No,None,Chemotherapy,31.3,1
+PT-000919,54,Male,Lung,III,1.43,G1,No,None,Radiotherapy,48.5,1
+PT-000920,60,Female,Lung CA,IV,8.39,G1,Yes,"Obesity, CAD",Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000921,67,Male,Prostate,III,1.96,G2,Yes,None,Radiotherapy + 2nd Line Chemo,37.5,1
+PT-000922,42,female,Colorectal,3,5.16,G3,No,None,Radiotherapy,51.4,1
+PT-000923,32,Female,Breast,I,1.05,G3,No,Hypertension,Surgery,56.8,1
+PT-000924,53,Male,Lung,II,4.23,G3,No,COPD,Radiotherapy,57.7,1
+PT-000925,45,Male,Pancreatic,IV,4.58 cm,Gx,No,Obesity,Chemotherapy,15.4,1
+PT-000926,53,male,Lung,III,6.6,Gx,Yes,Hypertension,Chemotherapy + 2nd Line Chemo,50.5,1
+PT-000927,58,F,Breast,3,4.61,G1,Yes,Diabetes Type 2,Chemotherapy + 2nd Line Chemo,44.5,1
+PT-000928,54,Female,Colorectal,1,0.89,G3,No,Diabetes Type 2,Surgery,55.3,1
+PT-000929,77,Male,Colon Cancer,I,2.21,G3,Yes,None,Surgery + 2nd Line Chemo,50.8,1
+PT-000930,63,Male,Prostate,III,0.94,G1,Yes,None,Radiotherapy + 2nd Line Chemo,19.4,1
+PT-000931,63,Female,Breast,IV,7.68,G2,No,None,Targeted Therapy,29.3,1
+PT-000932,67,Female,Breast,3,4.49,G3,Yes,CAD,Surgery + 2nd Line Chemo,7.9,1
+PT-000933,46,Female,Pancreatic,IV,"6,92",G1,Yes,"Obesity, Hypertension",Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000934,72,Male,Prostate,IV,10.08,Gx,Yes,"COPD, Diabetes Type 2",Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000935,59,Male,Prostate,II,4.26,G2,No,None,Surgery,60.0,0
+PT-000936,68,Male,Lung,I,1.24,G3,No,CAD,Surgery,42.3,1
+PT-000937,47,Female,Breast,I,0.99,G3,Yes,Hypertension,Surgery + 2nd Line Chemo,53.3,1
+PT-000938,41,Male,Colorectal,II,3.39,G2,No,None,Surgery,60.0,0
+PT-000939,69,Female,Lung,III,5.87,G2,Yes,"COPD, Obesity",Surgery + 2nd Line Chemo,43.5,1
+PT-000940,64,Male,Lung,Metastatic,6.78,G3,Yes,Diabetes Type 2,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000941,49,female,Colorectal,II,4.11,G2,No,None,Surgery,60.0,0
+PT-000942,49,Female,Pancreatic,III,7.21,G3,No,"Obesity, COPD",Radiotherapy,40.3,1
+PT-000943,73,Female,Lung,II,2.81,G3,No,Hypertension,Surgery,59.2,1
+PT-000944,45,Male,Pancreatic,I,2.57 cm,G1,No,"CAD, Diabetes Type 2",Surgery,54.5,1
+PT-000945,79,Male,Pancreatic,IV,"6,06",G2,Yes,CAD,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000946,49,Male,Lung,III,4.57 cm,G2,Yes,COPD,Surgery + 2nd Line Chemo,23.7,1
+PT-000947,67,Female,Breast,III,"5,37",G3,No,Obesity,Radiotherapy,39.1,1
+PT-000948,56,Female,Breast,I,1.39,G3,No,None,Surgery,31.9,1
+PT-000949,67,Female,Invasive Ductal,I,0.91 cm,G2,No,Hypertension,Surgery,55.0,1
+PT-000950,53,Female,Invasive Ductal,Stage 2,1.71,Gx,No,COPD,Radiotherapy,38.7,1
+PT-000951,58,Female,Breast,II,3.06,G2,No,"Obesity, Diabetes Type 2",Surgery,51.6,1
+PT-000952,60,Male,Prostate,I,1.11,G3,No,None,Surgery,57.7,1
+PT-000953,47,Female,Colon Cancer,3,5.31 cm,G2,No,None,Radiotherapy,46.1,1
+PT-000954,68,Male,Pancreatic,Metastatic,8.53,G3,Yes,Diabetes Type 2,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000955,53,Male,Colorectal,I,1.5,G2,Yes,CAD,Surgery + 2nd Line Chemo,52.0,1
+PT-000956,57,Female,Breast,I,1.68,G2,No,Obesity,Surgery,37.4,1
+PT-000957,48,Male,Lung CA,I,1.48,G3,No,None,Surgery,45.5,1
+PT-000958,29,Male,Prostate,1,"0,72",G1,No,None,Surgery,51.8,1
+PT-000959,57,Female,Lung,Stage 2,"3,46",Gx,No,None,Surgery,52.1,1
+PT-000960,88,Male,Colon Cancer,I,1.69,Gx,Yes,COPD,Surgery + 2nd Line Chemo,57.2,1
+PT-000961,69,Female,Pancreatic,3,"3,03",G1,No,"COPD, Hypertension",Chemotherapy,14.7,1
+PT-000962,59,Male,Prostate,Stage 2,2.15,G2,No,None,Surgery,52.7,1
+PT-000963,56,male,Lung,3,4.0 cm,Gx,No,None,Chemotherapy,15.0,1
+PT-000964,60,Male,Lung,Metastatic,5.5 cm,G2,Yes,Hypertension,Immunotherapy + 2nd Line Chemo,6.5,1
+PT-000965,66,Male,Pancreatic,Stage 2,3.34,G2,No,COPD,Surgery,31.9,1
+PT-000966,45,Female,Pancreatic,III,6.25 cm,G2,No,Diabetes Type 2,Chemotherapy,26.0,1
+PT-000967,73,Male,Colorectal,3,4.05,G1,Yes,"Obesity, COPD",Radiotherapy + 2nd Line Chemo,18.6,1
+PT-000968,68,Female,Invasive Ductal,I,0.87 cm,G3,No,None,Surgery,51.3,1
+PT-000969,68,Male,Lung,III,"4,68",Gx,No,"COPD, Obesity",Radiotherapy,38.3,1
+PT-000970,65,Female,Lung CA,I,1.97 cm,G3,Yes,None,Surgery + 2nd Line Chemo,60.0,0
+PT-000971,60,Female,Breast,I,1.89 cm,G1,No,"Diabetes Type 2, CAD",Surgery,60.0,0
+PT-000972,68,F,Breast,IV,7.03,G2,Yes,COPD,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000973,67,Male,Colorectal,II,3.14,Gx,No,"CAD, Diabetes Type 2",Surgery,44.8,1
+PT-000974,55,Male,Lung,III,4.64,G3,Yes,Obesity,Surgery + 2nd Line Chemo,20.7,1
+PT-000975,53,Male,Prostate,III,5.7,G2,Yes,"Diabetes Type 2, CAD",Surgery + 2nd Line Chemo,18.8,1
+PT-000976,61,female,Pancreatic,IV,9.38,G2,Yes,Hypertension,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-000977,78,Male,Lung,II,2.85,G1,No,"Diabetes Type 2, Obesity",Surgery,60.0,0
+PT-000978,45,M,Colorectal,Metastatic,9.15,G1,No,None,Targeted Therapy,28.6,1
+PT-000979,42,F,Breast,III,"7,14",G2,No,Obesity,Chemotherapy,46.3,1
+PT-000980,61,Male,Lung CA,IV,9.1,G3,Yes,CAD,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-000981,60,Female,Colorectal,III,4.88,G3,Yes,None,Chemotherapy + 2nd Line Chemo,25.1,1
+PT-000982,62,Male,Pancreatic,3,3.79,G1,No,None,Chemotherapy,16.5,1
+PT-000983,62,Male,Prostate,II,2.78 cm,G3,No,None,Surgery,52.5,1
+PT-000984,57,female,Lung,III,5.92 cm,Gx,Yes,Hypertension,Radiotherapy + 2nd Line Chemo,19.0,1
+PT-000985,77,male,Prostate,Metastatic,"8,02",G3,Yes,None,Chemotherapy + 2nd Line Chemo,18.2,1
+PT-000986,40,Female,Pancreatic,IV,3.58 cm,G2,Yes,CAD,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-000987,50,Male,Lung CA,II,2.61,G1,No,None,Radiotherapy,60.0,0
+PT-000988,58,Male,Prostate,I,1.25,G3,No,"Obesity, COPD",Surgery,50.5,1
+PT-000989,40,Female,Pancreatic,III,4.73,G2,No,"COPD, CAD",Radiotherapy,19.1,1
+PT-000990,57,Female,Pancreatic,IV,11.13,G1,No,"COPD, Diabetes Type 2",Immunotherapy,7.0,1
+PT-000991,79,Female,Invasive Ductal,IV,7.32,G3,Yes,CAD,Targeted Therapy + 2nd Line Chemo,8.8,1
+PT-000992,60,Male,Prostate,II,5.14,G3,No,Obesity,Radiotherapy,60.0,0
+PT-000993,62,Female,Pancreatic,III,5.42,G2,No,Obesity,Chemotherapy,28.8,1
+PT-000994,44,Male,Prostate,I,1.94,Gx,No,"Diabetes Type 2, Hypertension",Surgery,49.3,1
+PT-000995,52,Male,Pancreatic,II,3.32 cm,Gx,No,"Hypertension, COPD",Radiotherapy,45.7,1
+PT-000996,55,Female,Pancreatic,II,4.2 cm,G3,Yes,Hypertension,Surgery + 2nd Line Chemo,46.8,1
+PT-000997,56,male,Lung,Metastatic,7.02 cm,G3,Yes,"Diabetes Type 2, CAD",Chemotherapy + 2nd Line Chemo,16.2,1
+PT-000998,75,Female,Breast,1,1.46,Gx,No,Obesity,Surgery,60.0,0
+PT-000999,66,Male,Pancreatic,III,4.32,G3,No,None,Surgery,24.5,1
+PT-001000,46,Male,Pancreatic,III,3.58,G2,No,"COPD, Hypertension",Surgery,33.4,1
+PT-001001,62,Female,Breast,I,1.05,G2,No,None,Surgery,60.0,0
+PT-001002,65,Female,Lung,Stage 2,3.44,G2,No,"Obesity, Diabetes Type 2",Radiotherapy,54.5,1
+PT-001003,73,Female,Breast,I,0.78 cm,Gx,No,"Diabetes Type 2, Obesity",Surgery,43.7,1
+PT-001004,78,female,Breast,II,3.0 cm,G3,No,"COPD, Obesity",Surgery,50.8,1
+PT-001005,47,Female,Colorectal,I,1.23,Gx,No,COPD,Surgery,50.2,1
+PT-001006,50,Female,Pancreatic,Stage 2,1.5 cm,G2,Yes,"Hypertension, CAD",Radiotherapy + 2nd Line Chemo,22.3,1
+PT-001007,44,Female,Lung,III,4.98,G1,No,"Obesity, Diabetes Type 2",Surgery,31.4,1
+PT-001008,57,Male,Lung,Metastatic,7.77,G3,Yes,"Hypertension, Diabetes Type 2",Targeted Therapy + 2nd Line Chemo,29.8,1
+PT-001009,65,Male,Colorectal,1,"0,91",G1,No,"CAD, Diabetes Type 2",Surgery,60.0,0
+PT-001010,71,Male,Colorectal,III,8.66,G3,No,"Diabetes Type 2, COPD",Chemotherapy,34.3,1
+PT-001011,59,Female,Breast,Stage 2,3.44 cm,Gx,No,None,Radiotherapy,45.3,1
+PT-001012,56,Female,Invasive Ductal,1,"1,52",G3,No,None,Surgery,27.9,1
+PT-001013,61,Male,Lung,III,2.41,G2,No,None,Radiotherapy,30.2,1
+PT-001014,49,Female,Breast,Stage 2,4.93,G2,No,None,Surgery,60.0,0
+PT-001015,85,Female,Invasive Ductal,III,5.39,G2,Yes,None,Chemotherapy + 2nd Line Chemo,34.0,1
+PT-001016,40,Male,Pancreatic,Metastatic,4.3,G2,Yes,Diabetes Type 2,Chemotherapy + 2nd Line Chemo,2.2,1
+PT-001017,62,Female,Lung CA,III,4.32,G2,Yes,Diabetes Type 2,Chemotherapy + 2nd Line Chemo,38.9,1
+PT-001018,84,Female,Breast,IV,"5,54",G3,Yes,"CAD, Hypertension",Chemotherapy + 2nd Line Chemo,1.0,1
+PT-001019,60,male,Prostate,Stage 2,2.81 cm,G1,No,Hypertension,Surgery,60.0,0
+PT-001020,57,Female,Breast,II,1.76,G1,No,None,Radiotherapy,52.4,1
+PT-001021,55,male,Pancreatic,IV,7.9,G2,Yes,"Obesity, CAD",Immunotherapy + 2nd Line Chemo,11.9,1
+PT-001022,57,Female,Breast,Stage 2,3.95 cm,Gx,No,"Hypertension, Diabetes Type 2",Radiotherapy,60.0,0
+PT-001023,76,Female,Colorectal,I,1.53,G1,No,None,Surgery,38.5,1
+PT-001024,33,Female,Breast,1,0.45 cm,G1,No,None,Surgery,51.0,1
+PT-001025,78,Male,Pancreatic,3,7.01 cm,G2,No,CAD,Chemotherapy,3.6,1
+PT-001026,42,Female,Lung,Metastatic,9.14,G2,Yes,"Hypertension, Obesity",Chemotherapy + 2nd Line Chemo,24.0,1
+PT-001027,56,Female,Invasive Ductal,III,3.07,G3,Yes,None,Radiotherapy + 2nd Line Chemo,19.7,1
+PT-001028,54,Male,Pancreatic,II,3.43,G2,No,"Hypertension, CAD",Surgery,18.3,1
+PT-001029,67,Female,Lung CA,III,3.92,G2,Yes,None,Chemotherapy + 2nd Line Chemo,34.5,1
+PT-001030,40,Male,Prostate,II,3.25,Gx,No,None,Surgery,53.6,1
+PT-001031,65,Female,Breast,III,4.99,G1,Yes,COPD,Surgery + 2nd Line Chemo,12.2,1
+PT-001032,84,M,Lung,II,2.57,G3,No,CAD,Radiotherapy,60.0,0
+PT-001033,43,Male,Prostate,II,3.96,G2,No,"Hypertension, CAD",Surgery,60.0,0
+PT-001034,62,male,Lung,IV,6.26,G2,Yes,"Diabetes Type 2, CAD",Immunotherapy + 2nd Line Chemo,6.5,1
+PT-001035,52,Female,Breast,1,1.85 cm,G2,No,None,Surgery,55.2,1
+PT-001036,65,Male,Prostate,III,9.0,G1,No,"Hypertension, Obesity",Chemotherapy,21.8,1
+PT-001037,60,Female,Invasive Ductal,III,5.15 cm,Gx,Yes,Obesity,Chemotherapy + 2nd Line Chemo,14.3,1
+PT-001038,52,Male,Lung,III,5.29,G1,No,"COPD, Diabetes Type 2",Surgery,55.4,1
+PT-001039,65,Male,Pancreatic,III,5.81,G3,Yes,Obesity,Surgery + 2nd Line Chemo,1.0,1
+PT-001040,81,Female,Breast,I,"2,46",Gx,No,Diabetes Type 2,Surgery,60.0,0
+PT-001041,57,Female,Pancreatic,IV,9.33,G3,Yes,None,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-001042,68,Male,Colorectal,III,3.03,G1,No,"Obesity, Hypertension",Surgery,24.2,1
+PT-001043,44,Female,Breast,I,2.15 cm,G1,No,Hypertension,Surgery,60.0,0
+PT-001044,48,Female,Lung,Stage 2,1.75,G2,No,Obesity,Surgery,60.0,0
+PT-001045,65,Female,Lung,II,2.44,G3,No,COPD,Surgery,60.0,0
+PT-001046,77,Male,Prostate,III,4.05 cm,Gx,Yes,Diabetes Type 2,Surgery + 2nd Line Chemo,46.1,1
+PT-001047,64,Male,Pancreatic,III,4.55 cm,G1,Yes,"Obesity, COPD",Chemotherapy + 2nd Line Chemo,12.2,1
+PT-001048,56,female,Breast,II,3.71 cm,G3,No,"Diabetes Type 2, Obesity",Radiotherapy,55.7,1
+PT-001049,59,Male,Prostate,III,"4,65",G3,No,"Obesity, COPD",Surgery,26.2,1
+PT-001050,44,Female,Invasive Ductal,Metastatic,8.75 cm,G2,No,Obesity,Chemotherapy,44.7,1
+PT-001051,67,Female,Lung CA,II,3.73,Gx,No,CAD,Radiotherapy,60.0,0
+PT-001052,70,female,Invasive Ductal,II,2.44 cm,Gx,No,"Diabetes Type 2, COPD",Surgery,60.0,0
+PT-001053,54,Female,Lung,III,5.05,G1,No,None,Radiotherapy,42.4,1
+PT-001054,54,Female,Lung,IV,4.27,G3,Yes,"Obesity, Diabetes Type 2",Chemotherapy + 2nd Line Chemo,17.3,1
+PT-001055,63,Male,Prostate,3,4.2 cm,Gx,Yes,None,Surgery + 2nd Line Chemo,37.0,1
+PT-001056,54,Female,Breast,I,0.36,Gx,No,CAD,Surgery,60.0,0
+PT-001057,59,Male,Colorectal,IV,5.43,Gx,Yes,None,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001058,85,male,Lung,III,"6,2",G3,Yes,None,Chemotherapy + 2nd Line Chemo,25.5,1
+PT-001059,57,Female,Breast,I,1.22,Gx,No,Obesity,Surgery,53.8,1
+PT-001060,55,Female,Invasive Ductal,III,5.21,G1,No,Obesity,Surgery,60.0,0
+PT-001061,52,Female,Breast,II,1.27 cm,G3,No,Hypertension,Radiotherapy,60.0,0
+PT-001062,68,Female,Breast,I,1.62,G1,No,COPD,Surgery,60.0,0
+PT-001063,57,Male,Colorectal,III,"3,59",G3,Yes,None,Radiotherapy + 2nd Line Chemo,38.4,1
+PT-001064,52,Male,Prostate,II,3.73,G3,No,CAD,Surgery,60.0,0
+PT-001065,75,Female,Lung,III,6.88,Gx,Yes,"COPD, CAD",Radiotherapy + 2nd Line Chemo,30.9,1
+PT-001066,77,Male,Pancreatic,IV,5.44,G2,Yes,CAD,Immunotherapy + 2nd Line Chemo,24.7,1
+PT-001067,52,Male,Lung CA,3,4.02,Gx,Yes,CAD,Chemotherapy + 2nd Line Chemo,29.6,1
+PT-001068,37,M,Lung,IV,7.11,G2,Yes,"Hypertension, Obesity",Chemotherapy + 2nd Line Chemo,7.4,1
+PT-001069,72,Male,Prostate,Stage 2,3.87,G3,No,Obesity,Radiotherapy,60.0,0
+PT-001070,51,Male,Colorectal,3,3.68 cm,G1,Yes,"Diabetes Type 2, Hypertension",Chemotherapy + 2nd Line Chemo,25.8,1
+PT-001071,69,M,Lung,I,0.8,Gx,No,None,Surgery,60.0,0
+PT-001072,36,Male,Lung,III,5.95,G2,No,Obesity,Surgery,56.9,1
+PT-001073,70,Male,Prostate,II,2.61 cm,G1,No,None,Surgery,60.0,0
+PT-001074,45,Female,Pancreatic,3,6.97,Gx,Yes,Hypertension,Surgery + 2nd Line Chemo,1.0,1
+PT-001075,68,Male,Colorectal,III,3.58,Gx,Yes,None,Chemotherapy + 2nd Line Chemo,34.4,1
+PT-001076,60,Male,Prostate,I,1.28,G2,No,CAD,Surgery,51.6,1
+PT-001077,48,Female,Invasive Ductal,I,1.08,G3,No,Diabetes Type 2,Surgery,60.0,0
+PT-001078,55,Male,Pancreatic,IV,7.39,G2,Yes,CAD,Chemotherapy + 2nd Line Chemo,3.4,1
+PT-001079,68,Female,Invasive Ductal,IV,9.62 cm,G2,No,None,Immunotherapy,37.7,1
+PT-001080,61,Female,Breast,1,1.24,G2,No,"CAD, COPD",Surgery,60.0,0
+PT-001081,67,male,Lung CA,III,7.03 cm,G1,Yes,None,Radiotherapy + 2nd Line Chemo,43.1,1
+PT-001082,83,Male,Pancreatic,IV,8.18,G3,Yes,"Obesity, Hypertension",Chemotherapy + 2nd Line Chemo,1.0,1
+PT-001083,41,Female,Colorectal,IV,1.7,G2,Yes,"Hypertension, CAD",Immunotherapy + 2nd Line Chemo,19.6,1
+PT-001084,79,female,Breast,Stage 2,4.17,G1,No,CAD,Radiotherapy,60.0,0
+PT-001085,61,Male,Colorectal,IV,5.45,G3,Yes,Diabetes Type 2,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001086,49,Female,Breast,I,2.45,Gx,No,Diabetes Type 2,Surgery,60.0,0
+PT-001087,44,Male,Lung CA,1,1.44,G2,No,None,Surgery,53.4,1
+PT-001088,57,Female,Breast,III,6.78 cm,G2,Yes,None,Radiotherapy + 2nd Line Chemo,19.8,1
+PT-001089,71,Male,Lung,IV,5.07,G3,Yes,None,Immunotherapy + 2nd Line Chemo,3.6,1
+PT-001090,58,Female,Pancreatic,IV,2.87,G2,Yes,Diabetes Type 2,Immunotherapy + 2nd Line Chemo,3.6,1
+PT-001091,78,Female,Breast,IV,11.24,Gx,No,Obesity,Targeted Therapy,30.9,1
+PT-001092,42,female,Pancreatic,3,6.12,Gx,Yes,None,Chemotherapy + 2nd Line Chemo,3.5,1
+PT-001093,59,Female,Breast,II,3.3,Gx,No,"Diabetes Type 2, COPD",Radiotherapy,60.0,0
+PT-001094,44,Male,Lung CA,III,2.38,G3,No,"Hypertension, CAD",Surgery,21.8,1
+PT-001095,64,Male,Prostate,II,3.16,G3,No,"Hypertension, CAD",Surgery,32.1,1
+PT-001096,70,Male,Colorectal,I,1.51,G2,No,COPD,Surgery,48.9,1
+PT-001097,54,Male,Colorectal,Stage 2,3.56 cm,G3,No,Hypertension,Radiotherapy,41.0,1
+PT-001098,28,Female,Breast,II,2.99 cm,G1,No,"Hypertension, CAD",Surgery,60.0,0
+PT-001099,62,Male,Pancreatic,IV,4.76,G2,Yes,"COPD, Hypertension",Targeted Therapy + 2nd Line Chemo,8.8,1
+PT-001100,65,M,Pancreatic,Metastatic,5.74,Gx,No,None,Immunotherapy,1.0,1
+PT-001101,64,Female,Pancreatic,III,6.93,G2,Yes,COPD,Chemotherapy + 2nd Line Chemo,19.2,1
+PT-001102,74,Female,Breast,III,3.72,G3,Yes,Diabetes Type 2,Chemotherapy + 2nd Line Chemo,5.9,1
+PT-001103,47,Female,Breast,I,1.18,G2,No,None,Surgery,60.0,0
+PT-001104,68,Female,Lung CA,III,6.59,G1,No,Hypertension,Radiotherapy,32.5,1
+PT-001105,74,Male,Pancreatic,IV,8.93,G1,No,None,Targeted Therapy,1.0,1
+PT-001106,38,Male,Pancreatic,IV,8.44,G2,No,COPD,Chemotherapy,14.6,1
+PT-001107,63,Female,Breast,Stage 2,4.82 cm,G1,No,"Obesity, Hypertension",Surgery,53.0,1
+PT-001108,53,Female,Breast,II,3.39,Gx,No,"CAD, COPD",Radiotherapy,56.2,1
+PT-001109,59,Male,Lung,Stage 2,4.36 cm,G2,Yes,"Obesity, CAD",Surgery + 2nd Line Chemo,23.4,1
+PT-001110,64,Female,Breast,IV,7.37,G2,Yes,"CAD, COPD",Chemotherapy + 2nd Line Chemo,21.4,1
+PT-001111,54,Male,Pancreatic,Metastatic,5.33,Gx,Yes,Hypertension,Immunotherapy + 2nd Line Chemo,4.9,1
+PT-001112,51,male,Colon Cancer,3,3.42,G2,No,None,Chemotherapy,40.1,1
+PT-001113,60,Female,Colorectal,Stage 2,2.93,G1,Yes,"COPD, Diabetes Type 2",Radiotherapy + 2nd Line Chemo,31.7,1
+PT-001114,46,Female,Breast,II,4.25,G3,No,None,Surgery,60.0,0
+PT-001115,46,Female,Breast,IV,4.89,G2,Yes,CAD,Targeted Therapy + 2nd Line Chemo,2.0,1
+PT-001116,68,male,Lung,II,"3,12",G2,No,"CAD, Obesity",Surgery,54.6,1
+PT-001117,46,Female,Colorectal,Stage 2,2.58 cm,G1,No,"Hypertension, CAD",Radiotherapy,60.0,0
+PT-001118,67,Male,Prostate,I,1.73,G3,No,"Obesity, COPD",Surgery,41.6,1
+PT-001119,65,male,Pancreatic,I,0.02,G2,No,None,Surgery,53.9,1
+PT-001120,39,Female,Lung CA,II,3.22,G2,No,Obesity,Surgery,60.0,0
+PT-001121,51,Female,Colorectal,II,1.05 cm,G3,No,CAD,Radiotherapy,54.7,1
+PT-001122,74,Female,Lung,I,"1,82",G1,No,None,Surgery,60.0,0
+PT-001123,48,Female,Colorectal,III,4.82,Gx,No,"CAD, Obesity",Chemotherapy,44.5,1
+PT-001124,54,Female,Breast,1,2.97,G3,No,"COPD, Obesity",Surgery,53.3,1
+PT-001125,65,Female,Pancreatic,Metastatic,8.45 cm,Gx,No,"COPD, Diabetes Type 2",Targeted Therapy,4.4,1
+PT-001126,69,Male,Pancreatic,II,2.96,G3,No,"CAD, Diabetes Type 2",Surgery,53.1,1
+PT-001127,56,Male,Prostate,I,"0,63",G3,No,"COPD, CAD",Surgery,34.2,1
+PT-001128,52,Male,Lung,Stage 2,2.18,G2,No,Diabetes Type 2,Radiotherapy,60.0,0
+PT-001129,77,Male,Prostate,I,0.86,G2,No,Diabetes Type 2,Surgery,60.0,0
+PT-001130,80,Female,Breast,III,"5,46",G2,No,"Obesity, Hypertension",Surgery,48.4,1
+PT-001131,71,Male,Lung CA,IV,6.54,G2,Yes,"Obesity, CAD",Chemotherapy + 2nd Line Chemo,23.4,1
+PT-001132,61,Male,Colorectal,IV,9.08,G3,Yes,None,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-001133,50,Male,Colorectal,1,1.88 cm,Gx,No,"Hypertension, COPD",Surgery,37.6,1
+PT-001134,50,Female,Breast,II,3.47,G3,No,None,Surgery,49.1,1
+PT-001135,66,male,Lung,Metastatic,10.94,Gx,Yes,None,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-001136,65,Female,Breast,III,4.53,G2,No,COPD,Surgery,31.2,1
+PT-001137,76,Male,Lung CA,Metastatic,5.41,G1,No,None,Chemotherapy,5.1,1
+PT-001138,67,Male,Pancreatic,IV,9.57,G1,Yes,None,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001139,41,Female,Breast,II,"3,08",Gx,No,None,Radiotherapy,52.8,1
+PT-001140,72,Female,Colorectal,III,"4,05",Gx,Yes,Diabetes Type 2,Chemotherapy + 2nd Line Chemo,1.5,1
+PT-001141,48,Male,Lung,1,1.79,G2,No,Obesity,Surgery,60.0,0
+PT-001142,55,Female,Pancreatic,3,2.19,Gx,No,Hypertension,Radiotherapy,51.6,1
+PT-001143,63,Female,Pancreatic,3,6.77,G3,No,None,Surgery,22.3,1
+PT-001144,83,Male,Pancreatic,IV,8.56,G1,Yes,COPD,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-001145,97,Female,Lung,II,2.09,G1,No,Diabetes Type 2,Surgery,59.3,1
+PT-001146,67,Female,Breast,I,0.6,G2,No,None,Surgery,54.9,1
+PT-001147,57,Female,Invasive Ductal,Stage 2,3.54,G3,No,"COPD, Obesity",Radiotherapy,51.1,1
+PT-001148,66,Female,Lung,3,4.32,G1,No,COPD,Radiotherapy,39.6,1
+PT-001149,70,Female,Breast,1,1.65,G3,No,CAD,Surgery,39.9,1
+PT-001150,56,Female,Pancreatic,IV,3.44,G3,No,None,Chemotherapy,15.2,1
+PT-001151,81,Female,Breast,III,7.25,Gx,No,None,Radiotherapy,22.2,1
+PT-001152,62,Female,Colon Cancer,I,0.97 cm,G2,No,None,Surgery,60.0,0
+PT-001153,65,Female,Colon Cancer,I,"2,01",G3,Yes,Hypertension,Surgery + 2nd Line Chemo,38.8,1
+PT-001154,67,Female,Lung CA,1,1.19,G1,No,Obesity,Surgery,60.0,0
+PT-001155,65,Female,Pancreatic,Metastatic,4.3,G2,Yes,"CAD, Diabetes Type 2",Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001156,70,Male,Colorectal,III,"4,52",G2,No,"Diabetes Type 2, COPD",Surgery,35.7,1
+PT-001157,52,Female,Breast,III,4.45,G2,No,CAD,Chemotherapy,37.0,1
+PT-001158,53,Female,Breast,I,1.45,Gx,No,Hypertension,Surgery,60.0,0
+PT-001159,46,Male,Pancreatic,Metastatic,10.46 cm,G2,Yes,COPD,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-001160,65,Female,Breast,Stage 2,2.77,Gx,No,None,Radiotherapy,50.8,1
+PT-001161,69,male,Pancreatic,Metastatic,7.59 cm,G1,Yes,COPD,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001162,65,Male,Lung,Stage 2,4.23 cm,G3,No,Obesity,Surgery,38.9,1
+PT-001163,80,female,Lung,1,1.73,G2,Yes,None,Surgery + 2nd Line Chemo,51.1,1
+PT-001164,59,Male,Prostate,I,0.97,G2,No,"COPD, CAD",Surgery,60.0,0
+PT-001165,68,Female,Invasive Ductal,Stage 2,2.5,G2,No,None,Surgery,36.2,1
+PT-001166,46,Female,Invasive Ductal,3,6.13,G2,Yes,None,Chemotherapy + 2nd Line Chemo,28.4,1
+PT-001167,55,Female,Lung,III,"5,15",G1,Yes,CAD,Radiotherapy + 2nd Line Chemo,36.8,1
+PT-001168,68,Male,Prostate,III,5.33,G1,No,None,Surgery,38.0,1
+PT-001169,70,Male,Colorectal,III,"4,3",G2,No,COPD,Chemotherapy,32.4,1
+PT-001170,56,Female,Breast,II,3.18 cm,G2,Yes,"Hypertension, Diabetes Type 2",Radiotherapy + 2nd Line Chemo,45.1,1
+PT-001171,59,Female,Pancreatic,II,3.45,Gx,No,None,Radiotherapy,38.5,1
+PT-001172,41,Female,Lung CA,Metastatic,9.03,G2,Yes,None,Immunotherapy + 2nd Line Chemo,2.4,1
+PT-001173,55,M,Prostate,IV,6.19,G3,Yes,None,Targeted Therapy + 2nd Line Chemo,2.1,1
+PT-001174,70,Female,Lung,Stage 2,2.57 cm,G1,No,None,Surgery,60.0,0
+PT-001175,66,female,Lung CA,1,0.44,Gx,No,"CAD, COPD",Surgery,51.1,1
+PT-001176,66,Female,Lung CA,IV,8.59 cm,Gx,Yes,"Diabetes Type 2, COPD",Targeted Therapy + 2nd Line Chemo,6.2,1
+PT-001177,60,Male,Lung,III,7.02 cm,G3,No,None,Surgery,29.4,1
+PT-001178,60,Female,Colorectal,I,1.67,G2,No,"Diabetes Type 2, COPD",Surgery,51.8,1
+PT-001179,52,Female,Breast,III,7.88,Gx,No,CAD,Chemotherapy,53.2,1
+PT-001180,68,Female,Breast,I,0.73 cm,G3,No,None,Surgery,21.5,1
+PT-001181,65,Male,Lung,I,0.94,G3,No,"CAD, Hypertension",Surgery,43.6,1
+PT-001182,65,Female,Lung,I,1.32,G3,No,None,Surgery,59.8,1
+PT-001183,53,Female,Breast,I,0.89,G2,No,"Hypertension, COPD",Surgery,56.5,1
+PT-001184,34,Male,Lung,II,0.85,G2,No,Diabetes Type 2,Surgery,50.1,1
+PT-001185,73,Female,Lung CA,Metastatic,6.94,G1,Yes,Diabetes Type 2,Immunotherapy + 2nd Line Chemo,15.3,1
+PT-001186,54,female,Breast,III,4.96 cm,G3,Yes,Diabetes Type 2,Surgery + 2nd Line Chemo,30.9,1
+PT-001187,49,Male,Prostate,I,2.18,G1,No,"Hypertension, COPD",Surgery,60.0,0
+PT-001188,68,Male,Pancreatic,Metastatic,7.79 cm,G1,Yes,COPD,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-001189,55,Female,Breast,I,"1,58",G3,No,Hypertension,Surgery,55.5,1
+PT-001190,72,Male,Colon Cancer,II,3.99,G2,Yes,CAD,Surgery + 2nd Line Chemo,45.2,1
+PT-001191,67,Female,Lung,3,5.38,G3,Yes,"Diabetes Type 2, COPD",Radiotherapy + 2nd Line Chemo,28.9,1
+PT-001192,68,Male,Lung CA,1,1.31,G3,No,None,Surgery,60.0,0
+PT-001193,43,Female,Breast,I,1.48 cm,G3,No,CAD,Surgery,18.7,1
+PT-001194,74,Male,Prostate,III,3.03,G1,Yes,None,Chemotherapy + 2nd Line Chemo,31.3,1
+PT-001195,63,Female,Breast,I,1.7,G3,No,COPD,Surgery,29.2,1
+PT-001196,55,Female,Pancreatic,3,6.65,G2,No,Obesity,Chemotherapy,54.3,1
+PT-001197,61,Female,Breast,1,1.75 cm,G3,No,CAD,Surgery,44.4,1
+PT-001198,38,Female,Lung CA,I,1.98 cm,G3,No,"Diabetes Type 2, CAD",Surgery,59.0,1
+PT-001199,64,Male,Colorectal,I,"1,85",G3,No,"Obesity, Diabetes Type 2",Surgery,49.6,1
+PT-001200,47,Female,Pancreatic,II,0.93,G1,No,Diabetes Type 2,Surgery,35.4,1
+PT-001201,43,Male,Colorectal,IV,7.18 cm,G2,Yes,CAD,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001202,41,Male,Lung CA,II,"4,1",G2,No,None,Radiotherapy,60.0,0
+PT-001203,73,Male,Colorectal,Metastatic,6.23,G3,Yes,"COPD, Hypertension",Chemotherapy + 2nd Line Chemo,11.5,1
+PT-001204,52,Male,Lung,3,7.06 cm,G2,No,Diabetes Type 2,Chemotherapy,60.0,0
+PT-001205,78,F,Colorectal,IV,7.28,G1,Yes,Obesity,Targeted Therapy + 2nd Line Chemo,10.7,1
+PT-001206,53,female,Lung CA,II,3.75 cm,Gx,No,"CAD, Hypertension",Surgery,60.0,0
+PT-001207,39,M,Lung,I,0.49 cm,G2,No,CAD,Surgery,56.8,1
+PT-001208,46,Male,Lung CA,II,3.53,G2,No,CAD,Surgery,56.6,1
+PT-001209,74,F,Colorectal,III,3.79,Gx,Yes,Diabetes Type 2,Chemotherapy + 2nd Line Chemo,17.5,1
+PT-001210,58,Male,Pancreatic,3,4.65 cm,G3,Yes,"Hypertension, Obesity",Radiotherapy + 2nd Line Chemo,6.0,1
+PT-001211,53,Male,Colorectal,Metastatic,6.61,G3,Yes,"COPD, CAD",Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001212,61,M,Prostate,1,2.02,G1,Yes,None,Surgery + 2nd Line Chemo,55.3,1
+PT-001213,66,Female,Pancreatic,Metastatic,4.18,G3,Yes,None,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-001214,73,Female,Colorectal,II,2.24,G3,No,None,Radiotherapy,53.5,1
+PT-001215,77,Male,Lung CA,Stage 2,2.7,Gx,No,COPD,Surgery,60.0,0
+PT-001216,55,Male,Lung,3,4.63,G3,No,Diabetes Type 2,Chemotherapy,29.5,1
+PT-001217,44,Female,Pancreatic,III,5.5,G2,No,"Hypertension, COPD",Surgery,34.1,1
+PT-001218,55,Female,Lung,II,2.83,Gx,No,Obesity,Radiotherapy,60.0,0
+PT-001219,63,Male,Colorectal,III,7.16,G2,Yes,None,Chemotherapy + 2nd Line Chemo,45.7,1
+PT-001220,48,Female,Breast,IV,10.09 cm,G2,Yes,Obesity,Immunotherapy + 2nd Line Chemo,23.8,1
+PT-001221,48,male,Prostate,I,1.62,G3,No,Diabetes Type 2,Surgery,46.3,1
+PT-001222,64,Male,Lung,II,5.71,G3,No,Hypertension,Radiotherapy,52.8,1
+PT-001223,59,Female,Breast,Metastatic,8.04 cm,G2,Yes,CAD,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-001224,60,Male,Lung CA,3,7.13,G3,No,"CAD, Obesity",Radiotherapy,36.0,1
+PT-001225,50,Female,Pancreatic,IV,7.59 cm,Gx,Yes,Hypertension,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-001226,57,Male,Lung,IV,7.11,G2,Yes,"COPD, CAD",Immunotherapy + 2nd Line Chemo,10.3,1
+PT-001227,48,Male,Colorectal,II,3.13,G3,No,CAD,Radiotherapy,60.0,0
+PT-001228,70,Female,Breast,1,2.23,G3,No,None,Surgery,35.5,1
+PT-001229,72,Male,Prostate,III,4.95 cm,Gx,No,Hypertension,Chemotherapy,59.6,1
+PT-001230,37,Female,Lung,IV,"6,42",Gx,Yes,None,Chemotherapy + 2nd Line Chemo,20.8,1
+PT-001231,48,Male,Pancreatic,IV,7.89,G3,Yes,Obesity,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-001232,42,Male,Lung,Stage 2,2.61,G3,No,Obesity,Radiotherapy,48.2,1
+PT-001233,52,Male,Prostate,IV,"9,03",G3,Yes,None,Immunotherapy + 2nd Line Chemo,5.8,1
+PT-001234,58,Female,Pancreatic,III,5.17,G1,Yes,Hypertension,Chemotherapy + 2nd Line Chemo,33.3,1
+PT-001235,42,Male,Pancreatic,IV,5.41 cm,Gx,No,"Obesity, CAD",Immunotherapy,6.2,1
+PT-001236,48,Female,Breast,1,0.83,G1,No,Diabetes Type 2,Surgery,60.0,0
+PT-001237,47,Male,Lung,III,4.52 cm,G2,Yes,None,Radiotherapy + 2nd Line Chemo,30.2,1
+PT-001238,62,Female,Breast,1,1.42,G3,No,"CAD, COPD",Surgery,60.0,0
+PT-001239,60,Male,Colon Cancer,3,4.17,Gx,Yes,Hypertension,Surgery + 2nd Line Chemo,25.6,1
+PT-001240,51,Female,Lung,III,"5,18",G2,Yes,Diabetes Type 2,Surgery + 2nd Line Chemo,29.6,1
+PT-001241,62,Female,Colorectal,1,1.58,G3,No,"Hypertension, CAD",Surgery,60.0,0
+PT-001242,53,Female,Colorectal,I,1.98,G1,No,"COPD, CAD",Surgery,60.0,0
+PT-001243,56,female,Lung,II,4.17,G3,No,None,Surgery,60.0,0
+PT-001244,80,Female,Pancreatic,3,5.96,G3,Yes,Obesity,Radiotherapy + 2nd Line Chemo,1.0,1
+PT-001245,76,female,Breast,IV,6.46,G2,Yes,None,Targeted Therapy + 2nd Line Chemo,7.5,1
+PT-001246,44,Male,Lung,II,"3,66",G3,No,Hypertension,Surgery,60.0,0
+PT-001247,69,Male,Prostate,1,1.3 cm,Gx,No,None,Surgery,51.9,1
+PT-001248,69,Female,Colon Cancer,IV,5.7,G3,Yes,Diabetes Type 2,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-001249,46,Female,Pancreatic,IV,6.35,G1,No,COPD,Targeted Therapy,8.1,1
+PT-001250,69,Female,Lung,III,3.5,G2,Yes,None,Chemotherapy + 2nd Line Chemo,18.1,1
+PT-001251,78,Male,Prostate,Stage 2,"2,14",G3,No,None,Surgery,45.0,1
+PT-001252,46,M,Colon Cancer,II,2.54,G3,No,None,Surgery,51.4,1
+PT-001253,48,Male,Prostate,1,0.99,G3,No,None,Surgery,50.6,1
+PT-001254,72,female,Breast,II,5.82 cm,G1,No,None,Radiotherapy,60.0,0
+PT-001255,63,Male,Prostate,I,1.32 cm,Gx,Yes,"CAD, Diabetes Type 2",Surgery + 2nd Line Chemo,60.0,0
+PT-001256,66,Male,Pancreatic,II,"1,68",Gx,No,Hypertension,Radiotherapy,34.7,1
+PT-001257,64,Male,Pancreatic,IV,6.52 cm,G3,Yes,Obesity,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-001258,64,Male,Colon Cancer,IV,7.33,G2,Yes,None,Chemotherapy + 2nd Line Chemo,18.1,1
+PT-001259,44,female,Lung,IV,9.12,G2,Yes,Diabetes Type 2,Chemotherapy + 2nd Line Chemo,28.2,1
+PT-001260,72,Male,Colorectal,IV,4.32,G2,Yes,None,Targeted Therapy + 2nd Line Chemo,18.6,1
+PT-001261,74,Female,Lung,III,4.27,Gx,No,Obesity,Surgery,43.5,1
+PT-001262,57,Male,Lung,3,6.16,G3,No,"Hypertension, Obesity",Chemotherapy,38.0,1
+PT-001263,59,Male,Pancreatic,3,6.17,G1,No,COPD,Radiotherapy,33.1,1
+PT-001264,41,Male,Lung,I,"1,36",G1,No,"Hypertension, COPD",Surgery,48.9,1
+PT-001265,66,Male,Pancreatic,I,1.27 cm,G1,No,None,Surgery,47.3,1
+PT-001266,66,Male,Pancreatic,Metastatic,9.62 cm,Gx,Yes,Diabetes Type 2,Targeted Therapy + 2nd Line Chemo,12.5,1
+PT-001267,59,Male,Pancreatic,Metastatic,9.34,G2,Yes,"CAD, Hypertension",Chemotherapy + 2nd Line Chemo,1.0,1
+PT-001268,73,Female,Pancreatic,3,3.64,G1,No,"Diabetes Type 2, COPD",Chemotherapy,26.6,1
+PT-001269,55,Male,Lung,III,5.21,G3,No,"Obesity, Diabetes Type 2",Radiotherapy,27.1,1
+PT-001270,66,Female,Breast,I,1.41,G2,No,None,Surgery,32.2,1
+PT-001271,47,F,Breast,II,"4,36",G3,No,"Obesity, COPD",Surgery,50.2,1
+PT-001272,59,female,Breast,I,0.78,G3,No,None,Surgery,53.6,1
+PT-001273,57,Male,Prostate,IV,7.89 cm,Gx,Yes,Diabetes Type 2,Chemotherapy + 2nd Line Chemo,3.9,1
+PT-001274,62,Male,Pancreatic,IV,4.17,G2,No,CAD,Targeted Therapy,1.0,1
+PT-001275,55,Male,Lung,Stage 2,3.98,Gx,Yes,"Obesity, Hypertension",Radiotherapy + 2nd Line Chemo,39.4,1
+PT-001276,58,Male,Prostate,3,4.94 cm,G3,Yes,CAD,Surgery + 2nd Line Chemo,29.2,1
+PT-001277,69,Female,Colorectal,II,"5,16",G2,No,None,Radiotherapy,60.0,0
+PT-001278,54,Male,Lung,I,2.02,G2,No,"Hypertension, Obesity",Surgery,60.0,0
+PT-001279,40,Male,Prostate,III,4.43 cm,G1,Yes,Obesity,Chemotherapy + 2nd Line Chemo,13.9,1
+PT-001280,80,Female,Pancreatic,IV,5.02,G3,Yes,Obesity,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001281,76,Female,Breast,I,"1,86",G1,No,None,Surgery,52.0,1
+PT-001282,44,Female,Colorectal,Stage 2,3.24,G3,Yes,Diabetes Type 2,Surgery + 2nd Line Chemo,33.0,1
+PT-001283,68,Male,Lung,1,1.08,G3,No,CAD,Surgery,44.5,1
+PT-001284,53,Male,Lung,IV,9.42,G3,Yes,"Diabetes Type 2, COPD",Immunotherapy + 2nd Line Chemo,8.5,1
+PT-001285,63,Female,Pancreatic,III,4.96,G2,No,CAD,Radiotherapy,36.5,1
+PT-001286,63,Male,Lung,I,1.66,G3,No,"COPD, Hypertension",Surgery,48.8,1
+PT-001287,57,Male,Lung,II,"2,16",G2,No,Diabetes Type 2,Surgery,59.0,1
+PT-001288,50,Male,Prostate,IV,7.2,G2,No,"COPD, Diabetes Type 2",Immunotherapy,25.6,1
+PT-001289,51,Male,Pancreatic,III,7.25 cm,G1,Yes,CAD,Radiotherapy + 2nd Line Chemo,21.8,1
+PT-001290,49,male,Prostate,Stage 2,2.27,Gx,No,None,Surgery,60.0,0
+PT-001291,50,Male,Prostate,3,"3,89",G2,No,None,Surgery,24.6,1
+PT-001292,59,Female,Pancreatic,Stage 2,1.19 cm,G2,No,"CAD, COPD",Surgery,45.2,1
+PT-001293,51,Female,Breast,I,1.02,G2,No,COPD,Surgery,47.2,1
+PT-001294,68,female,Lung,1,1.29,G3,No,None,Surgery,49.4,1
+PT-001295,77,Male,Prostate,II,4.5,G2,No,"Obesity, CAD",Surgery,57.3,1
+PT-001296,53,Male,Prostate,II,2.8,G2,No,Hypertension,Surgery,59.4,1
+PT-001297,62,Male,Lung CA,IV,6.63,Gx,Yes,"CAD, Diabetes Type 2",Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001298,65,Female,Colorectal,Metastatic,5.74,G1,Yes,CAD,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-001299,65,Female,Breast,1,1.15,G2,No,CAD,Surgery,34.9,1
+PT-001300,60,Male,Prostate,I,"1,54",G2,No,None,Surgery,58.4,1
+PT-001301,68,Female,Lung,3,4.57,G3,No,None,Surgery,24.8,1
+PT-001302,65,male,Prostate,Stage 2,2.12,G3,No,"Hypertension, Obesity",Surgery,41.9,1
+PT-001303,45,female,Pancreatic,3,5.14,G3,Yes,None,Chemotherapy + 2nd Line Chemo,20.9,1
+PT-001304,70,Female,Colorectal,Metastatic,5.76,G2,Yes,Hypertension,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001305,70,Female,Pancreatic,3,3.81,G3,No,COPD,Radiotherapy,32.0,1
+PT-001306,50,female,Colorectal,II,2.47,G2,No,None,Surgery,60.0,0
+PT-001307,60,Female,Breast,I,1.89 cm,Gx,No,Obesity,Surgery,36.6,1
+PT-001308,68,Male,Lung,IV,4.9,G2,Yes,None,Targeted Therapy + 2nd Line Chemo,11.1,1
+PT-001309,57,Female,Pancreatic,1,1.92,G3,No,Diabetes Type 2,Surgery,30.2,1
+PT-001310,72,Male,Pancreatic,II,4.15,Gx,No,Diabetes Type 2,Radiotherapy,10.1,1
+PT-001311,88,Female,Colorectal,I,2.08,G2,No,Obesity,Surgery,42.7,1
+PT-001312,50,Female,Breast,Stage 2,1.84 cm,G1,No,"Diabetes Type 2, CAD",Radiotherapy,60.0,0
+PT-001313,43,Female,Pancreatic,III,2.03,Gx,No,CAD,Surgery,49.2,1
+PT-001314,63,male,Colon Cancer,Stage 2,1.24,Gx,No,Diabetes Type 2,Radiotherapy,60.0,0
+PT-001315,68,Female,Lung,I,0.87,G1,No,"Obesity, Diabetes Type 2",Surgery,60.0,0
+PT-001316,57,Female,Breast,I,1.38 cm,G3,No,CAD,Surgery,49.7,1
+PT-001317,77,Female,Breast,IV,7.02,G2,No,None,Targeted Therapy,40.2,1
+PT-001318,43,Male,Lung,Metastatic,8.76,G2,No,None,Targeted Therapy,45.8,1
+PT-001319,68,male,Pancreatic,III,3.58,G2,No,"COPD, Obesity",Radiotherapy,18.0,1
+PT-001320,52,Male,Pancreatic,Stage 2,3.28,G2,No,None,Radiotherapy,21.0,1
+PT-001321,80,Male,Prostate,I,2.42,G2,No,CAD,Surgery,34.8,1
+PT-001322,83,Female,Pancreatic,I,1.18 cm,G2,No,Diabetes Type 2,Surgery,60.0,0
+PT-001323,50,M,Colorectal,Metastatic,5.53,G3,Yes,Obesity,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001324,53,Female,Lung CA,III,5.7,G2,Yes,"COPD, Obesity",Radiotherapy + 2nd Line Chemo,32.2,1
+PT-001325,70,Male,Colorectal,IV,5.91,G3,Yes,"Hypertension, CAD",Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001326,55,Male,Lung,III,4.79,Gx,No,CAD,Surgery,31.0,1
+PT-001327,59,Female,Breast,Stage 2,"3,88",G3,No,"Obesity, Diabetes Type 2",Surgery,46.5,1
+PT-001328,60,Female,Lung,IV,5.49,G2,Yes,"Obesity, COPD",Immunotherapy + 2nd Line Chemo,12.5,1
+PT-001329,36,Male,Lung,III,4.83 cm,Gx,No,Diabetes Type 2,Chemotherapy,35.2,1
+PT-001330,59,Female,Pancreatic,IV,"6,06",G3,Yes,Hypertension,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001331,51,Female,Breast,IV,9.24,G2,Yes,None,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001332,54,Male,Pancreatic,III,5.08 cm,G3,No,COPD,Radiotherapy,29.5,1
+PT-001333,77,Female,Colorectal,III,3.01,Gx,Yes,Diabetes Type 2,Chemotherapy + 2nd Line Chemo,32.9,1
+PT-001334,44,Female,Pancreatic,3,5.16,G3,No,"COPD, Diabetes Type 2",Radiotherapy,22.3,1
+PT-001335,69,Female,Lung,III,6.5,G3,No,"CAD, Diabetes Type 2",Chemotherapy,19.2,1
+PT-001336,56,Male,Prostate,II,2.46,G1,No,"COPD, Obesity",Surgery,24.6,1
+PT-001337,56,Female,Pancreatic,III,3.8,G3,Yes,"Hypertension, COPD",Radiotherapy + 2nd Line Chemo,1.0,1
+PT-001338,69,M,Prostate,I,1.81,G2,No,Obesity,Surgery,49.6,1
+PT-001339,64,Male,Pancreatic,Metastatic,8.28,G1,Yes,Diabetes Type 2,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001340,66,male,Colorectal,III,"4,67",G2,No,None,Chemotherapy,60.0,0
+PT-001341,71,Male,Prostate,IV,4.33,Gx,Yes,Obesity,Immunotherapy + 2nd Line Chemo,18.3,1
+PT-001342,56,Female,Lung CA,Metastatic,6.13,G2,No,None,Immunotherapy,52.8,1
+PT-001343,52,female,Breast,II,5.19 cm,G2,No,Diabetes Type 2,Surgery,60.0,0
+PT-001344,46,Female,Invasive Ductal,III,6.37,G3,Yes,COPD,Surgery + 2nd Line Chemo,12.4,1
+PT-001345,50,M,Colorectal,Metastatic,5.03,Gx,Yes,"Diabetes Type 2, CAD",Chemotherapy + 2nd Line Chemo,14.2,1
+PT-001346,95,Male,Pancreatic,Metastatic,6.65,G2,Yes,"CAD, Diabetes Type 2",Targeted Therapy + 2nd Line Chemo,16.4,1
+PT-001347,74,Male,Lung,III,7.01,G3,No,COPD,Chemotherapy,52.0,1
+PT-001348,43,Female,Pancreatic,IV,6.18,G2,Yes,None,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-001349,44,Male,Prostate,3,3.42,Gx,No,CAD,Surgery,43.0,1
+PT-001350,65,Female,Colorectal,I,1.24,G1,No,Obesity,Surgery,42.8,1
+PT-001351,66,female,Breast,I,2.36,G3,No,CAD,Surgery,59.9,1
+PT-001352,66,Male,Prostate,I,0.76 cm,G1,No,None,Surgery,60.0,0
+PT-001353,56,Female,Breast,I,2.03,G1,No,"Diabetes Type 2, Obesity",Surgery,60.0,0
+PT-001354,58,Male,Prostate,III,3.7,G2,No,"Obesity, Diabetes Type 2",Chemotherapy,32.0,1
+PT-001355,63,Female,Breast,II,4.14,G2,No,"Hypertension, Obesity",Surgery,60.0,0
+PT-001356,61,Female,Lung,3,4.05,G2,No,"Diabetes Type 2, COPD",Chemotherapy,45.0,1
+PT-001357,33,Male,Prostate,III,2.14 cm,G3,No,None,Surgery,31.0,1
+PT-001358,57,Male,Prostate,III,4.72 cm,G3,No,COPD,Chemotherapy,32.1,1
+PT-001359,49,Female,Invasive Ductal,1,2.02,G1,No,Diabetes Type 2,Surgery,57.9,1
+PT-001360,62,Female,Colorectal,IV,"4,15",G1,Yes,Hypertension,Targeted Therapy + 2nd Line Chemo,22.0,1
+PT-001361,95,Male,Prostate,Stage 2,4.91,G3,No,CAD,Surgery,58.8,1
+PT-001362,64,Female,Colorectal,IV,6.62 cm,Gx,No,"Obesity, Diabetes Type 2",Chemotherapy,8.2,1
+PT-001363,56,Female,Breast,I,1.92,G2,No,"COPD, Diabetes Type 2",Surgery,47.9,1
+PT-001364,71,Female,Invasive Ductal,II,3.07 cm,Gx,No,None,Surgery,56.9,1
+PT-001365,65,Male,Colorectal,Metastatic,10.33,Gx,Yes,None,Chemotherapy + 2nd Line Chemo,18.8,1
+PT-001366,65,F,Lung,1,"1,53",G2,No,None,Surgery,60.0,0
+PT-001367,67,Female,Pancreatic,IV,6.75,Gx,Yes,None,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-001368,84,Male,Lung,II,3.15 cm,Gx,No,Obesity,Radiotherapy,60.0,0
+PT-001369,46,Male,Colorectal,III,4.74,G2,No,None,Surgery,36.0,1
+PT-001370,65,Female,Lung,Metastatic,6.25,G3,Yes,COPD,Targeted Therapy + 2nd Line Chemo,10.6,1
+PT-001371,48,Male,Colorectal,Stage 2,3.32,G3,No,Hypertension,Surgery,54.0,1
+PT-001372,66,Female,Breast,II,2.94,G2,No,CAD,Radiotherapy,56.2,1
+PT-001373,48,Male,Prostate,IV,5.22,G2,Yes,"CAD, COPD",Chemotherapy + 2nd Line Chemo,12.8,1
+PT-001374,54,Male,Prostate,Metastatic,8.14,G3,Yes,None,Targeted Therapy + 2nd Line Chemo,15.8,1
+PT-001375,56,Female,Lung,II,3.38,G3,No,None,Radiotherapy,43.2,1
+PT-001376,71,Male,Pancreatic,IV,6.63,G2,Yes,"COPD, CAD",Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-001377,71,Female,Breast,Metastatic,6.59,G3,No,None,Chemotherapy,9.2,1
+PT-001378,45,Male,Pancreatic,IV,7.25,G3,Yes,Hypertension,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-001379,60,Female,Breast,I,0.77,Gx,No,"COPD, Obesity",Surgery,52.1,1
+PT-001380,51,Male,Colorectal,IV,5.33,Gx,Yes,None,Immunotherapy + 2nd Line Chemo,11.3,1
+PT-001381,44,Male,Colorectal,IV,8.79 cm,G1,Yes,Obesity,Chemotherapy + 2nd Line Chemo,23.3,1
+PT-001382,57,Female,Pancreatic,IV,"7,47",Gx,Yes,"COPD, Obesity",Chemotherapy + 2nd Line Chemo,1.0,1
+PT-001383,56,Male,Colorectal,3,6.75 cm,G3,No,"Diabetes Type 2, Obesity",Surgery,14.0,1
+PT-001384,89,Female,Invasive Ductal,I,1.43,G1,No,CAD,Surgery,44.5,1
+PT-001385,65,Male,Lung,I,2.0,G1,No,None,Surgery,46.0,1
+PT-001386,43,Female,Pancreatic,III,4.18 cm,G3,Yes,"Diabetes Type 2, CAD",Surgery + 2nd Line Chemo,12.1,1
+PT-001387,53,Male,Pancreatic,Metastatic,5.98,G2,Yes,Hypertension,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-001388,72,Female,Invasive Ductal,IV,8.66 cm,G2,Yes,CAD,Chemotherapy + 2nd Line Chemo,6.4,1
+PT-001389,85,male,Colorectal,I,1.05,G2,No,None,Surgery,60.0,0
+PT-001390,40,Male,Prostate,I,1.58,G2,No,"COPD, Hypertension",Surgery,60.0,0
+PT-001391,37,M,Prostate,II,3.19,G2,No,"COPD, Diabetes Type 2",Radiotherapy,55.4,1
+PT-001392,82,Male,Lung CA,IV,7.38,G3,Yes,Diabetes Type 2,Chemotherapy + 2nd Line Chemo,2.3,1
+PT-001393,64,Female,Invasive Ductal,1,1.07,G2,No,"Diabetes Type 2, Obesity",Surgery,60.0,0
+PT-001394,49,M,Pancreatic,IV,5.23,G2,Yes,None,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-001395,66,Female,Breast,I,"1,19",Gx,No,"Obesity, Hypertension",Surgery,57.5,1
+PT-001396,28,Male,Prostate,II,"2,25",G3,No,None,Surgery,60.0,0
+PT-001397,60,M,Colorectal,IV,2.68,G3,Yes,"CAD, COPD",Chemotherapy + 2nd Line Chemo,9.7,1
+PT-001398,63,Female,Breast,I,1.46,G1,No,None,Surgery,60.0,0
+PT-001399,71,Female,Lung,IV,10.08,G3,Yes,CAD,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001400,47,Male,Colorectal,3,4.52,G3,No,Hypertension,Radiotherapy,29.0,1
+PT-001401,61,Male,Prostate,III,4.95 cm,G3,Yes,Diabetes Type 2,Radiotherapy + 2nd Line Chemo,4.0,1
+PT-001402,48,Male,Lung,IV,9.53,G2,Yes,Obesity,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-001403,63,Female,Colorectal,1,1.01,G3,No,None,Surgery,60.0,0
+PT-001404,49,Female,Breast,1,2.75 cm,G3,No,None,Surgery,43.7,1
+PT-001405,55,male,Colon Cancer,1,"1,27",G1,No,Hypertension,Surgery,60.0,0
+PT-001406,48,Female,Breast,III,4.1,G3,No,Hypertension,Surgery,15.1,1
+PT-001407,67,Female,Pancreatic,IV,8.19,G1,Yes,CAD,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001408,70,Female,Breast,1,1.04 cm,G2,No,None,Surgery,55.9,1
+PT-001409,57,Female,Colorectal,1,2.14 cm,G2,No,CAD,Surgery,59.2,1
+PT-001410,60,Male,Colorectal,II,2.68 cm,Gx,No,None,Surgery,60.0,0
+PT-001411,42,Male,Lung,IV,7.42 cm,G1,No,None,Immunotherapy,25.4,1
+PT-001412,56,Male,Lung,Stage 2,3.48,G3,No,None,Radiotherapy,45.0,1
+PT-001413,59,Male,Lung,IV,9.77,G3,Yes,None,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001414,91,Female,Pancreatic,IV,6.36,G1,Yes,"Obesity, CAD",Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-001415,46,Female,Pancreatic,II,1.64,G3,No,Diabetes Type 2,Surgery,24.0,1
+PT-001416,77,Male,Lung CA,IV,7.16,G1,Yes,"Diabetes Type 2, COPD",Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001417,71,Male,Colorectal,II,4.18,Gx,No,None,Radiotherapy,60.0,0
+PT-001418,63,male,Prostate,Metastatic,"6,3",G2,No,"COPD, Hypertension",Chemotherapy,1.0,1
+PT-001419,81,Female,Pancreatic,3,8.22,Gx,Yes,"Diabetes Type 2, CAD",Surgery + 2nd Line Chemo,34.4,1
+PT-001420,64,male,Prostate,IV,2.29,G3,Yes,Hypertension,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001421,64,Female,Breast,II,3.02,G1,No,"Obesity, CAD",Surgery,50.7,1
+PT-001422,59,Male,Pancreatic,IV,6.71 cm,G3,Yes,Hypertension,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-001423,74,Male,Lung,IV,7.81,G3,Yes,Hypertension,Targeted Therapy + 2nd Line Chemo,17.8,1
+PT-001424,73,Female,Breast,1,1.59 cm,G2,No,Diabetes Type 2,Surgery,60.0,0
+PT-001425,52,Female,Pancreatic,III,4.07,G3,No,None,Chemotherapy,21.0,1
+PT-001426,44,Male,Lung CA,IV,5.6 cm,G3,Yes,None,Chemotherapy + 2nd Line Chemo,13.0,1
+PT-001427,57,Female,Breast,II,2.79,G2,Yes,Obesity,Surgery + 2nd Line Chemo,29.4,1
+PT-001428,50,Female,Colorectal,I,1.28,G1,No,"CAD, Diabetes Type 2",Surgery,53.7,1
+PT-001429,59,Female,Lung,I,"2,02",G2,No,None,Surgery,49.1,1
+PT-001430,74,Male,Prostate,III,5.92,G2,No,None,Radiotherapy,54.7,1
+PT-001431,54,Female,Breast,II,4.14,G2,No,None,Radiotherapy,55.4,1
+PT-001432,59,Male,Lung,III,5.33 cm,G1,No,"Obesity, COPD",Radiotherapy,50.1,1
+PT-001433,60,Female,Lung CA,Stage 2,2.83,G2,No,Obesity,Radiotherapy,60.0,0
+PT-001434,70,Male,Prostate,III,3.81 cm,G2,No,None,Radiotherapy,29.7,1
+PT-001435,33,Male,Prostate,IV,8.39,G2,No,"Obesity, COPD",Immunotherapy,13.0,1
+PT-001436,52,Male,Lung,IV,4.34,G1,No,"Obesity, CAD",Targeted Therapy,35.5,1
+PT-001437,62,Female,Lung,I,1.36 cm,G3,No,None,Surgery,40.7,1
+PT-001438,74,Male,Colorectal,II,4.27,Gx,Yes,"Hypertension, COPD",Surgery + 2nd Line Chemo,51.5,1
+PT-001439,54,Female,Invasive Ductal,IV,4.73,G3,Yes,Diabetes Type 2,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001440,37,Female,Invasive Ductal,I,2.31,Gx,No,None,Surgery,56.2,1
+PT-001441,67,Male,Colorectal,3,3.84,G2,No,"CAD, Obesity",Chemotherapy,39.4,1
+PT-001442,52,Female,Pancreatic,III,5.37,G1,No,"Hypertension, Diabetes Type 2",Radiotherapy,15.6,1
+PT-001443,45,Male,Colorectal,IV,4.75,G3,Yes,Diabetes Type 2,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001444,52,Female,Colorectal,II,3.07,G3,No,"Hypertension, CAD",Surgery,53.4,1
+PT-001445,57,Male,Prostate,III,5.19 cm,G2,No,None,Radiotherapy,29.9,1
+PT-001446,52,Female,Invasive Ductal,I,1.69,G3,No,None,Surgery,40.3,1
+PT-001447,33,female,Colorectal,II,3.8,G2,No,COPD,Surgery,48.7,1
+PT-001448,70,Female,Pancreatic,IV,7.85,G1,Yes,COPD,Targeted Therapy + 2nd Line Chemo,1.0,1
+PT-001449,75,female,Invasive Ductal,1,0.7,Gx,Yes,"CAD, Obesity",Surgery + 2nd Line Chemo,60.0,0
+PT-001450,67,Male,Prostate,IV,4.76,G3,Yes,None,Chemotherapy + 2nd Line Chemo,18.1,1
+PT-001451,46,Female,Pancreatic,III,7.07,Gx,No,"Obesity, Hypertension",Radiotherapy,16.3,1
+PT-001452,57,Female,Breast,IV,8.06,G1,Yes,"Obesity, Diabetes Type 2",Chemotherapy + 2nd Line Chemo,35.8,1
+PT-001453,59,Female,Pancreatic,3,4.82,G3,No,None,Chemotherapy,2.9,1
+PT-001454,67,Male,Lung,II,4.59,Gx,No,Diabetes Type 2,Surgery,60.0,0
+PT-001455,68,Female,Breast,I,1.21 cm,G3,No,Diabetes Type 2,Surgery,41.3,1
+PT-001456,51,F,Breast,II,3.2 cm,G3,No,"CAD, Hypertension",Surgery,39.5,1
+PT-001457,60,Female,Lung,II,3.41,G1,No,Diabetes Type 2,Surgery,51.1,1
+PT-001458,65,male,Lung CA,1,2.05,G2,No,"COPD, Obesity",Surgery,59.4,1
+PT-001459,77,female,Invasive Ductal,IV,8.13,G3,Yes,COPD,Chemotherapy + 2nd Line Chemo,7.0,1
+PT-001460,68,Male,Prostate,I,1.64,G1,Yes,"Hypertension, Obesity",Surgery + 2nd Line Chemo,58.0,1
+PT-001461,69,Female,Lung,II,3.32,G3,No,"COPD, Hypertension",Surgery,38.7,1
+PT-001462,61,Male,Lung,Metastatic,6.1,G3,Yes,None,Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001463,76,Female,Breast,I,1.43,Gx,No,Obesity,Surgery,49.0,1
+PT-001464,64,Female,Pancreatic,III,7.22,G2,No,"COPD, Hypertension",Chemotherapy,23.7,1
+PT-001465,49,Male,Pancreatic,IV,4.04,G3,Yes,"Hypertension, Obesity",Immunotherapy + 2nd Line Chemo,1.0,1
+PT-001466,76,Female,Pancreatic,IV,6.8,G2,Yes,Hypertension,Chemotherapy + 2nd Line Chemo,1.0,1
+PT-001467,68,Male,Prostate,IV,6.46 cm,Gx,Yes,Diabetes Type 2,Targeted Therapy + 2nd Line Chemo,13.2,1
+PT-001468,54,Female,Breast,III,4.02,G1,No,Obesity,Surgery,60.0,0
+PT-001469,54,Female,Colorectal,3,6.9,G3,Yes,Hypertension,Surgery + 2nd Line Chemo,13.9,1
+PT-001470,63,Female,Breast,1,1.47,Gx,No,"Obesity, Hypertension",Surgery,54.8,1
+PT-001471,65,Female,Pancreatic,IV,6.09,G2,Yes,CAD,Targeted Therapy + 2nd Line Chemo,1.7,1
+PT-001472,62,Female,Colorectal,1,2.22,G3,Yes,"Obesity, CAD",Surgery + 2nd Line Chemo,33.3,1
+PT-001473,63,Male,Pancreatic,III,"2,93",Gx,No,COPD,Surgery,33.0,1
+PT-001474,80,Male,Prostate,Stage 2,4.18,G1,No,"CAD, Obesity",Surgery,51.4,1
+PT-001475,72,female,Breast,3,3.25,Gx,No,"Diabetes Type 2, COPD",Chemotherapy,60.0,0
+PT-001476,62,Female,Colorectal,Metastatic,8.36,G3,Yes,Hypertension,Chemotherapy + 2nd Line Chemo,4.1,1
+PT-001477,71,Female,Breast,I,1.14,Gx,No,CAD,Surgery,52.6,1
+PT-001478,47,Female,Lung CA,III,3.26,G2,No,Diabetes Type 2,Surgery,32.9,1
+PT-001479,64,M,Pancreatic,III,"2,28",G3,No,None,Chemotherapy,8.8,1
+PT-001480,81,Female,Breast,I,1.75,G3,No,None,Surgery,60.0,0
+PT-001481,57,Male,Lung CA,I,1.82,G1,No,"Hypertension, Diabetes Type 2",Surgery,44.8,1
+PT-001482,49,Female,Colorectal,III,5.22 cm,G3,No,Obesity,Surgery,22.0,1
+PT-001483,52,Male,Prostate,IV,7.66,G1,Yes,None,Chemotherapy + 2nd Line Chemo,3.3,1
+PT-001484,46,Male,Prostate,IV,7.76,Gx,Yes,COPD,Targeted Therapy + 2nd Line Chemo,9.8,1
+PT-001485,50,M,Lung,III,7.01,G3,Yes,None,Surgery + 2nd Line Chemo,16.7,1
+PT-001486,55,Male,Prostate,I,1.76 cm,G2,No,None,Surgery,42.1,1
+PT-001487,43,female,Colorectal,II,1.75,Gx,No,None,Radiotherapy,55.2,1
+PT-001488,60,Male,Lung,II,4.42,Gx,No,Hypertension,Radiotherapy,58.8,1
+PT-001489,70,Male,Prostate,I,1.8,G2,Yes,"Diabetes Type 2, CAD",Surgery + 2nd Line Chemo,42.5,1
+PT-001490,49,Male,Lung,3,4.48,G2,No,None,Radiotherapy,48.2,1
+PT-001491,78,Male,Colorectal,III,5.18 cm,G2,No,Obesity,Chemotherapy,51.0,1
+PT-001492,66,Male,Lung CA,Stage 2,3.21 cm,G2,No,None,Radiotherapy,59.1,1
+PT-001493,72,male,Prostate,IV,"7,27",G2,Yes,COPD,Targeted Therapy + 2nd Line Chemo,12.8,1
+PT-001494,52,Female,Colorectal,III,5.42,G3,Yes,CAD,Surgery + 2nd Line Chemo,1.0,1
+PT-001495,70,Female,Breast,III,3.73,G2,No,"COPD, Obesity",Radiotherapy,34.9,1
+PT-001496,46,Female,Breast,3,4.59,G3,Yes,None,Chemotherapy + 2nd Line Chemo,32.1,1
+PT-001497,70,Male,Colorectal,Stage 2,1.78,Gx,No,"Hypertension, Diabetes Type 2",Surgery,54.9,1
+PT-001498,62,Male,Prostate,3,5.51,G2,Yes,None,Surgery + 2nd Line Chemo,21.2,1
+PT-001499,66,female,Pancreatic,III,4.81,G2,Yes,"CAD, COPD",Radiotherapy + 2nd Line Chemo,42.3,1
